@@ -1,0 +1,208 @@
+::ng-deep.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2.25rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-right: 0px solid !important;
+}
+
+::ng-deep .input-group-addon {
+  margin-bottom: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: rgb(73, 80, 87);
+  text-align: center;
+  background-color: rgb(233, 236, 239);
+  padding: 0.5rem 0.75rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-image: initial;
+  border-radius: 0 38px 38px 0;
+}
+
+::ng-deep .input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.menu {
+  color: #2291ee;
+  font-size: 20px;
+}
+
+.img-slider {
+  height: 550px;
+  width: 100%;
+}
+
+::ng-deep .carousel-indicators li {
+  width: 0.625rem;
+  height: 0.625rem;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  or: pointer;
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+.carousel-control-next-icon {
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  padding: 26px;
+  right: -0.3%;
+  top: 46%;
+  background-image: url(/assets/image/next.png);
+  background-size: 40px 40px;
+}
+
+.carousel-control-prev-icon {
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  padding: 26px;
+  left: -0.5%;
+  top: 46%;
+  background-image: url(/assets/image/previous.png);
+  background-size: 40px 40px;
+}
+
+.text-promo {
+  font-family: Barlow-SemiBold;
+  font-size: 40px;
+  color: #133d60;
+}
+
+.card-univ {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0 0 10px 0;
+  -webkit-box-shadow: -1px 0px 13px 2px #ccc;
+  margin-bottom: 20px;
+  /* width: 220px;
+  height: 220px; */
+  text-align: center;
+  margin: 20px;
+}
+
+.img-univ {
+  height: 204px;
+  width: 204px;
+  padding: 16px;
+}
+
+.lihat-semua {
+  /* font-size: 20px;
+  font-family: OpenSans-Bold; */
+  color: #fc0152;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.jurusan {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* height: 200px; */
+  width: 285px;
+  margin: 10px;
+}
+
+.text-jurusan {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  /* margin: auto; */
+  left: 45%;
+  /* -webkit-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 400px;
+  width: 100%;
+  /* margin: 10px; */
+}
+
+.text-banner {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  /* margin: auto; */
+  left: 45%;
+  /* -webkit-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #fff;
+}
+
+.request {
+  background-image: url(/assets/image/mask.png);
+  height: 600px;
+  width: 100%;
+}
+
+.img-request {
+  height: 450px;
+  width: auto;
+  margin-left: 20px;
+}
+
+.cerita-mahasiswa {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 94%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+}
+
+.title {
+  font-family: Barlow-SemiBold;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600
+}
+
+.position {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #fff;
+}
+
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #fff;  
+}
