@@ -91,8 +91,9 @@
 }
 
 .text-promo {
-  font-family: Barlow-SemiBold;
+  font-family: barlow;
   font-size: 40px;
+  font-weight: 600;
   color: #133d60;
 }
 
@@ -136,11 +137,18 @@
   position: absolute;
   top: 50%;
   width: 100%;
-  /* margin: auto; */
   left: 45%;
-  /* -webkit-transform: translate(-50%, -50%); */
   transform: translate(-50%, -50%);
   font-size: 35px;
+}
+
+.text-training {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
 }
 
 .banner {
@@ -179,8 +187,8 @@
 .cerita-mahasiswa {
   position: absolute;
   top: 50%;
-  width: 100%;
-  left: 94%;
+  width: 50%;
+  left: 74%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 35px;
@@ -190,7 +198,7 @@
   font-family: Barlow-SemiBold;
   font-size: 20px;
   color: #fff;
-  font-weight: 600
+  font-weight: 600;
 }
 
 .position {
@@ -204,5 +212,150 @@
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-style: italic;
-  color: #fff;  
+  color: #fff;
+}
+
+.container-review {
+  /* background-color: pink; */
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+::ng-deep .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  padding: 0;
+}
+
+.title-dosen {
+  font-family: Barlow-SemiBold;
+  font-size: 25px;
+  letter-spacing: 1.58px;
+}
+
+.position-dosen {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 0.92px;
+}
+
+.description-dosen {
+  font-family: OpenSans;
+  font-size: 15px;
+  letter-spacing: 0.92px;
+}
+
+.sub-title {
+  font-size: 30px;
+  font-family: OpenSans;
+}
+
+.price {
+  font-family: Barlow-ExtraBold;
+  color: #0baae8;
+  font-size: 30px;
+}
+
+.newsLetter {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url(./../assets/image/bg-newslatter.png);
+  height: 250px;
+}
+
+.text-newsLetter {
+  position: absolute;
+  top: 24%;
+  margin: auto;
+  width: 59%;
+  left: 51%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  display: -ms-flexbox !important;
+  display: flex;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  height: 56px;
+  position: absolute;
+  top: 72%;
+  left: 51%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+form.example button {
+  float: left;
+  width: 200px;
+  padding: 8px;
+  background: #f94451;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 46px;
+  margin-left: -19%;
+  margin-top: 6px;
+  margin-right: -1px;
+  position: absolute;
+  top: 69.8%;
+  left: 85%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  background-image: url(./../assets/image/bg-footer.png);
+  height: 500px;
+  color: #fff
+}
+
+.footer-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+}
+
+.footer-subtitle {
+  font-size: 15px;
+  text-align: left;
+}
+
+.footer-small {
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: -80px;
+}
+
+.img-logo-w{
+  width: 180px;
+  height: 63px;
+}
+
+.img-socmed {
+  width: 26px;
+  height:26px ;
+  margin: 0 12px 0 0px;
 }
