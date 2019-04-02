@@ -506,3 +506,199 @@ form.example button {
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
     background-color: #4a9fe9;
 }
+
+.horizontal-scroll-wrapper{
+  /* position:absolute; */
+  display:block;
+  top:0;
+  left:0;
+  width:560px;
+  max-height:480px;
+  margin:0;
+  /* background:#abc; */
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+}
+.horizontal-scroll-wrapper > .card-image{
+  display:block;
+  /* padding:5px; */
+  /* background:#cab; */
+  transform:rotate(90deg);
+  /* transform-origin: right top; */
+}
+
+.horizontal-scroll-wrapper > .card-text{
+  display:block;
+  width: 210px;
+  /* padding:5px; */
+  /* background:#cab; */
+  transform:rotate(90deg);
+  /* transform-origin: right top; */
+}
+
+.squares{
+  /* padding:60px 0 0 0; */
+  /* margin-left: -160px; */
+  margin-left: -480px;
+}
+
+.squares > .card-image{
+  /* margin:30px; */
+  margin: -130px 30px -300px;
+}
+
+.squares > .card-text{
+  /* margin:30px; */
+  /* margin: -130px 30px -235px; */
+}
+
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.mobileUnive, .mobileJurusan, .mobileTraining {
+  display: none;
+}
+
+.desktopUniv, .desktopJurusan, .desktopTraining {
+  display: block;
+}
+
+@media(max-width: 480px){
+  .mobileUniv, .mobileJurusan, .mobileTraining {
+    display: block;
+  }
+  
+  .desktopUniv, .desktopJurusan, .desktopTraining {
+    display: none;
+  }
+
+  .img-univ {
+    height: 115px;
+    width: 115px;
+    padding: 16px;
+  }
+  .text-univ {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    padding: 16px;
+    color: #133d60;
+    font-size: 10px;
+    font-weight: 700;
+    width: 115px;
+    margin-left: 190px;
+    margin-top: -15px;
+  }
+  .horizontal-scroll-wrapper{
+    /* position:absolute; */
+    display:block;
+    top:0;
+    left:0;
+    width:560px;
+    height:420px;
+    margin:0;
+    /* background:#abc; */
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+  .horizontal-scroll-wrapper > .card-text{
+    display:block;
+    width: 120px;
+    /* padding:5px; */
+    /* background:#cab; */
+    transform:rotate(90deg);
+    /* transform-origin: right top; */
+  }
+  .squares{
+    /* padding:60px 0 0 0; */
+    /* margin-left: -160px; */
+    margin-left: -480px;
+  }
+  .squares > .card-image{
+    /* margin:30px; */
+    margin: -140px 30px -290px;
+  }
+
+  .squares > .card-image > .card-text{
+    margin-bottom: -60px;
+    /* width: 100px; */
+    /* margin:30px; */
+    /* margin: -130px 30px -235px; */
+  }
+
+  /* styling horizontal jurusan */
+
+  .img-jurusan {
+    height: 115px;
+    width: 190px;
+    padding: 16px;
+  }
+  .text-jurusan {
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    padding: 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+    margin-left: -66px;
+  }
+  .horizontal-jurusan{
+    /* position:absolute; */
+    display:block;
+    top:0;
+    left:0;
+    width:560px;
+    height:420px;
+    margin:0;
+    margin-top: -220px;
+    /* background:#abc; */
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+
+  .horizontal-jurusan > .card-image-jurusan{
+    display:block;
+    /* padding:5px; */
+    /* background:#cab; */
+    transform:rotate(90deg);
+    /* transform-origin: right top; */
+  }
+
+  .horizontal-jurusan > .card-text-jurusan{
+    display:block;
+    width: 120px;
+    /* padding:5px; */
+    /* background:#cab; */
+    transform:rotate(90deg);
+    /* transform-origin: right top; */
+  }
+
+  .squares-jurusan{
+    /* padding:60px 0 0 0; */
+    /* margin-left: -160px; */
+    margin-left: -480px;
+  }
+
+  .squares-jurusan > .card-image-jurusan{
+    /* margin:30px; */
+    /* margin: -140px 30px -290px; */
+    margin: 110px 100px 0px;
+  }
+
+  .squares-jurusan > .card-image-jurusan > .card-text-jurusan{
+    margin-bottom: -60px;
+    /* width: 100px; */
+    /* margin:30px; */
+    /* margin: -130px 30px -235px; */
+  }
+}
