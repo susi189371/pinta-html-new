@@ -33,7 +33,7 @@
 ::ng-deep .input-group {
   position: relative;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   width: 100%;
 }
 
@@ -62,8 +62,8 @@
   cursor: pointer;
   background-color: #fff;
   background-clip: padding-box;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  /* border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; */
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
@@ -110,9 +110,22 @@
 }
 
 .img-univ {
-  height: 204px;
-  width: 204px;
+  height: 210px;
+  width: 210px;
   padding: 16px;
+}
+
+.text-univ {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  height: 100px;
+  padding: 16px;
+  color: #133d60;
+  font-size: 20px;
+  font-weight: 700;
+  width: 210px;
+  margin: 0 20px;
 }
 
 .lihat-semua {
@@ -173,15 +186,16 @@
 }
 
 .request {
-  background-image: url(/assets/image/mask.png);
+  /* background-image: url(/assets/image/mask.png); */
+  background-color: #FFCC01;
   height: 600px;
   width: 100%;
+  margin: 0 !important;
 }
 
 .img-request {
-  height: 450px;
+  height: 600px;
   width: auto;
-  margin-left: 20px;
 }
 
 .cerita-mahasiswa {
@@ -213,6 +227,10 @@
   font-size: 12px;
   font-style: italic;
   color: #fff;
+}
+
+.container-dosen {
+  width: 100%;
 }
 
 .container-review {
@@ -325,7 +343,7 @@ form.example button {
 
 .footer {
   background-image: url(./../assets/image/bg-footer.png);
-  height: 500px;
+  height: 350px;
   color: #fff
 }
 
@@ -358,4 +376,133 @@ form.example button {
   width: 26px;
   height:26px ;
   margin: 0 12px 0 0px;
+}
+.fade {
+  opacity: 1;
+  transition: opacity .15s linear;
+  padding: 30px 40px;
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.img-tabmenu {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tab-description {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+  color: #133d60;
+}
+
+.btn-ingintahu {
+  background-color: #F84851;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.title-ingintahu {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subtitle-ingintahu {
+  font-size: 17px;
+  text-align: center;
+}
+
+.text-ingintahu {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0;
+  border: 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #133d60;
+  color: #133d60;
+  background: #FFCC01;
+  margin: 20px 0;
+}
+
+.text-ingintahu::placeholder {
+  color: #133d60;
+}
+
+.with-nav-tabs.panel-primary>.panel-body {
+  box-shadow: 0 -1px 14px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.with-nav-tabs.panel-primary, .with-nav-tabs.panel-primary .nav-tabs {
+  border: none;
+}
+
+.with-nav-tabs.panel-primary>.panel-heading {
+  padding: 10px 15px 0px 15px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li > a.active {
+  background-color: white;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #133d60;
+    font-weight: bold;
+    background-color: #E6E4E4;
+    margin-right: 15px;
+    padding: 15px 15px;
+    box-shadow: 0 -10px 14px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	background-color: white;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #133d60;
+	background-color: #fff;
+	border-color: transparent;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #428bca;
+    border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    background-color: #4a9fe9;
 }
