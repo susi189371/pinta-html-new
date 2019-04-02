@@ -1,4 +1,48 @@
-<header class="mr-5 ml-5 mt-2 row">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"> <img src="./../assets/image/logo-pintaria.png" class="img-logo-header"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mt-5">
+      <li class="nav-item col-md-2">
+        <a class="nav-link d-flex align-items-end menu " href="#">Beranda <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item col-md-2">
+        <a class="nav-link d-flex align-items-end menu" href="#">Blog</a>
+      </li>
+      <li class="nav-item col-md-2">
+        <a class="nav-link d-flex align-items-end menu" href="#">Program</a>
+      </li>
+      <li class="col-md-5">
+        <div class="d-flex align-items-end header-top">
+          <div class="input-group" style="border-radius:20px">
+            <input class="form-control border-right-0">
+            <span class="input-group-addon bg-white border-left-0"><i class="fas fa-search"></i></span>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item col-md-2">
+        <a class="nav-link d-flex align-items-end menu" href="#">Masuk/Daftar</a>
+      </li>
+      <li class="col-md-2">
+          <div class="text-center d-flex align-items-end header-top">
+              <button class="btn btn-danger">Request Info</button>
+            </div>
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+
+
+
+  </div>
+</nav>
+<!-- <header class="mr-5 ml-5 mt-2 row">
   <div class="col-md-2">
     <img src="./../assets/image/logo-pintaria.png">
   </div>
@@ -15,7 +59,7 @@
   <div class="col-md-2 text-center d-flex align-items-end">
     <button class="btn btn-danger">Request Info</button>
   </div>
-</header>
+</header> -->
 <section class="mt-5">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -113,56 +157,62 @@
 
 <section>
   <div class="banner">
-    <img src="./../assets/image/blended-learning-box-desktop.jpg" alt="Snow" style="width:100%;">
+    <img src="./../assets/image/blended-learning-box-desktop.jpg" alt="Snow" class="img-banner">
   </div>
 </section>
 
 <section class="mr-5 ml-5">
   <div class="row">
     <div class="col-md-12">
-        <div class="panel with-nav-tabs panel-primary">
-            <div class="panel-heading">
-                <ul class="nav nav-tabs">
-                    <li id="tab1"><a href="#tab1primary" data-toggle="tab" class="active">IJAZAH YANG DIAKUI DAN SAMA&nbsp;&nbsp;<i class="fas fa-angle-right"></i></a></li>
-                    <li id="tab2"><a href="#tab2primary" data-toggle="tab">BIAYA KULIAH JAUH LEBIH HEMAT&nbsp;&nbsp;<i class="fas fa-angle-right"></i></a></li>
-                    <li id="tab3"><a href="#tab3primary" data-toggle="tab">FLEKSIBEL DAN INTERAKTIF&nbsp;&nbsp;<i class="fas fa-angle-right"></i></a></li>
-                </ul>
-            </div>
-            <div class="panel-body">
-                <div class="tab-content">
-                    <div class="tab-pane fade row in active show" id="tab1primary">
-                      <div class="col-md-6">
-                        <p class="tab-description">Belajar dari dosen, profesor, dan materi dengan kualitas yang sama baik dengan mahasiswa reguler. 
-
-                        <br><br>Ijazah yang kamu dapatkan juga setingkat dengan ijazah kuliah reguler.</p>
-                      </div>
-                      <div class="col-md-6">
-                        <img src="./../assets/image/1-ijazah-sama---mobile.jpg" alt="Snow" class="img-tabmenu">
-                      </div>
-                    </div>
-                    <div class="tab-pane fade row" id="tab2primary">
-                      <div class="col-md-6">
-                        <p class="tab-description">Belajar dari dosen, profesor, dan materi dengan kualitas yang sama baik dengan mahasiswa reguler. 
-
-                        <br><br>Ijazah yang kamu dapatkan juga setingkat dengan ijazah kuliah reguler.</p>
-                      </div>
-                      <div class="col-md-6">
-                        <img src="./../assets/image/2-jauh-lebih-hemat-desktop.jpg" alt="Snow" class="img-tabmenu">
-                      </div>
-                    </div>
-                    <div class="tab-pane fade row" id="tab3primary">
-                      <div class="col-md-6">
-                        <p class="tab-description">Belajar dari dosen, profesor, dan materi dengan kualitas yang sama baik dengan mahasiswa reguler. 
-
-                        <br><br>Ijazah yang kamu dapatkan juga setingkat dengan ijazah kuliah reguler.</p>
-                      </div>
-                      <div class="col-md-6">
-                        <img src="./../assets/image/3-fleksibel-dan-interaktif-desktop.jpg" alt="Snow" class="img-tabmenu">
-                      </div>
-                    </div>
-                </div>
-            </div>
+      <div class="panel with-nav-tabs panel-primary">
+        <div class="panel-heading">
+          <ul class="nav nav-tabs">
+            <li id="tab1"><a href="#tab1primary" data-toggle="tab" class="active">IJAZAH YANG DIAKUI DAN
+                SAMA&nbsp;&nbsp;<i class="fas fa-angle-right"></i></a></li>
+            <li id="tab2"><a href="#tab2primary" data-toggle="tab">BIAYA KULIAH JAUH LEBIH HEMAT&nbsp;&nbsp;<i
+                  class="fas fa-angle-right"></i></a></li>
+            <li id="tab3"><a href="#tab3primary" data-toggle="tab">FLEKSIBEL DAN INTERAKTIF&nbsp;&nbsp;<i
+                  class="fas fa-angle-right"></i></a></li>
+          </ul>
         </div>
+        <div class="panel-body">
+          <div class="tab-content">
+            <div class="tab-pane fade row in active show" id="tab1primary">
+              <div class="col-md-6">
+                <p class="tab-description">Belajar dari dosen, profesor, dan materi dengan kualitas yang sama baik
+                  dengan mahasiswa reguler.
+
+                  <br><br>Ijazah yang kamu dapatkan juga setingkat dengan ijazah kuliah reguler.</p>
+              </div>
+              <div class="col-md-6">
+                <img src="./../assets/image/1-ijazah-sama---mobile.jpg" alt="Snow" class="img-tabmenu">
+              </div>
+            </div>
+            <div class="tab-pane fade row" id="tab2primary">
+              <div class="col-md-6">
+                <p class="tab-description">Belajar dari dosen, profesor, dan materi dengan kualitas yang sama baik
+                  dengan mahasiswa reguler.
+
+                  <br><br>Ijazah yang kamu dapatkan juga setingkat dengan ijazah kuliah reguler.</p>
+              </div>
+              <div class="col-md-6">
+                <img src="./../assets/image/2-jauh-lebih-hemat-desktop.jpg" alt="Snow" class="img-tabmenu">
+              </div>
+            </div>
+            <div class="tab-pane fade row" id="tab3primary">
+              <div class="col-md-6">
+                <p class="tab-description">Belajar dari dosen, profesor, dan materi dengan kualitas yang sama baik
+                  dengan mahasiswa reguler.
+
+                  <br><br>Ijazah yang kamu dapatkan juga setingkat dengan ijazah kuliah reguler.</p>
+              </div>
+              <div class="col-md-6">
+                <img src="./../assets/image/3-fleksibel-dan-interaktif-desktop.jpg" alt="Snow" class="img-tabmenu">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -173,7 +223,8 @@
     <div class="col-md-1"></div>
     <div class="col-md-4">
       <p class="title-ingintahu">Ingin tahu lebih lanjut?</p>
-      <p class="subtitle-ingintahu">Isi data diri kamu dibawah ini. Kami akan menghubungi kamu untuk memberikan informasi lengkap sesuai kebutuhanmu.</p>
+      <p class="subtitle-ingintahu">Isi data diri kamu dibawah ini. Kami akan menghubungi kamu untuk memberikan
+        informasi lengkap sesuai kebutuhanmu.</p>
       <p><input type="text" class="text-ingintahu" placeholder="Nama*"></p>
       <p><input type="text" class="text-ingintahu" placeholder="Email*"></p>
       <p><input type="text" class="text-ingintahu" placeholder="Nomor Ponsel*"></p>
@@ -196,7 +247,7 @@
   <p class="text-center">Cerita dari mahasiswa dan peserta training kami.</p>
   <div class="row mt-5 ml-5 mr-5">
     <div class="col-md-6 container-review">
-      <img src="./../assets/image/3728.png" alt="Snow" style="width:100%;">
+      <img src="./../assets/image/3728.png" alt="Snow" class="img-cerita">
       <div class="cerita-mahasiswa">
         <div class="title ">Tina Rudianto</div>
         <div class="position">It Consultant </div>
@@ -208,7 +259,7 @@
     </div>
 
     <div class="col-md-6 container-review">
-      <img src="./../assets/image/2429.png" alt="Snow" style="width:100%;">
+      <img src="./../assets/image/2429.png" alt="Snow" class="img-cerita">
       <div class="cerita-mahasiswa">
         <div class="title ">Tina Rudianto</div>
         <div class="position">It Consultant </div>
@@ -220,7 +271,7 @@
     </div>
 
     <div class="col-md-6 container-review">
-      <img src="./../assets/image/1302.png " alt="Snow" style="width:100%;">
+      <img src="./../assets/image/1302.png " alt="Snow" class="img-cerita">
       <div class="cerita-mahasiswa">
         <div class="title ">Tina Rudianto</div>
         <div class="position">It Consultant </div>
@@ -232,7 +283,7 @@
     </div>
 
     <div class="col-md-6 container-review">
-      <img src="./../assets/image/2360.png" alt="Snow" style="width:100%;">
+      <img src="./../assets/image/2360.png" alt="Snow" class="img-cerita">
       <div class="cerita-mahasiswa">
         <div class="title ">Tina Rudianto</div>
         <div class="position">It Consultant </div>
@@ -413,15 +464,17 @@
       <div class="col-md-3 m-5" style="margin-bottom: 1rem !important;">
         <img src="./../assets/image/logo-pintaria-white.png" alt="logo pintaria" class="img-logo-w">
         <div class="mt-4">
-            Pintaria merupakan portal pendidikan yang menawarkan produk kuliah S1/S2 dengan metode blended learning dan program kursus lainnya. Pintaria bekerjasama dengan kampus-kampus unggulan yang terakreditasi BAN-PT di Indonesia.
+          Pintaria merupakan portal pendidikan yang menawarkan produk kuliah S1/S2 dengan metode blended learning dan
+          program kursus lainnya. Pintaria bekerjasama dengan kampus-kampus unggulan yang terakreditasi BAN-PT di
+          Indonesia.
         </div>
         <div class="mt-4">Ikuti Media Social Kami</div>
-        <div class="col-md-12 row mt-2" >
+        <div class="col-md-12 row mt-2">
           <img src="./../assets/image/ig.png" alt="instagram" class="img-socmed">
-          <img src="./../assets/image/fb.png" alt="fb"  class="img-socmed">
-          <img src="./../assets/image/yb.png" alt="youtube"  class="img-socmed">
-          <img src="./../assets/image/twitter.png" alt="twiter"  class="img-socmed">
-          <img src="./../assets/image/g.png" alt="twiter"  class="img-socmed">
+          <img src="./../assets/image/fb.png" alt="fb" class="img-socmed">
+          <img src="./../assets/image/yb.png" alt="youtube" class="img-socmed">
+          <img src="./../assets/image/twitter.png" alt="twiter" class="img-socmed">
+          <img src="./../assets/image/g.png" alt="twiter" class="img-socmed">
         </div>
       </div>
       <div class="col-md-8 row " style="margin-top: 3rem;">
