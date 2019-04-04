@@ -1020,9 +1020,8 @@ a:focus, a:hover {
   .img-jurusan {
     /* height: 115px;
     width: 190px; */
-    height: 78px;
+    height: 79px;
     width: 168px;
-    padding: 16px;
   }
   .text-jurusan {
     background-color: transparent;
@@ -1031,9 +1030,9 @@ a:focus, a:hover {
     height: 50px;
     padding: 16px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
-    width: 150px;
+    width: 180px;
     /* margin-left: -66px; */
     margin-left: 5px;
   }
@@ -1082,7 +1081,7 @@ a:focus, a:hover {
     /* margin: -140px 30px -290px; */
     /* margin: 110px 100px 0px; */
     /* margin: 110px 130px 0px; */
-    margin: 35px 0 125px 145px;
+    margin: 50px 0 160px 145px;
     width: 175px;
   }
 
