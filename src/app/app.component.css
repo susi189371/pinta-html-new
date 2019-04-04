@@ -527,7 +527,67 @@ form.example button {
   height: 288px;
   width: 100%;
 }
+.dekstop {
+  display: block;
+}
+.mobile {
+  display: none !important;
+}
+.menu-close {
+  display: block;
+}
+
+::ng-deep .navbar-light .navbar-toggler {
+  position: absolute;
+  /* color: none !important;
+  border-color: none !important; */
+}
+
+/* @media (max-width: 768px) {
+  .dekstop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .menu-close {
+    display: block;
+  }
+} */
 @media (max-width: 480px) {
+  .dekstop {
+    display: none;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .menu-close {
+    display: none;
+  }
+  .img-logo-header {
+    margin-top: -44px;
+    width: 86px;
+    height: 27px;
+    margin-left: 145px;
+    background-color: white;
+  }
+  .mobile-menu {
+    margin-top: -33px;
+    margin-left: 280px;
+  }
+  .search-icon {
+    margin: 4px;
+    margin-right: 30px;
+  }
+  .navbar-light .navbar-toggler {
+    /* margin-left: -110px; */
+    position: absolute;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: white !important;
+  }
+  .navbar {
+    margin-bottom: -25px;
+  }
   .img-slider {
     height: 300px;
     width: 100%;
@@ -570,4 +630,14 @@ form.example button {
     height: 984px;
     color: #fff;
   }
+
+  ::ng-deep .navbar-light .navbar-toggler-icon {
+    margin-left: -365px;
+  }
+  ::ng-deep .navbar-light .navbar-toggler {
+    /* color: none !important;
+    border-color: none !important; */
+  }
+
+  
 }
