@@ -721,7 +721,7 @@ section.section {
   }
   .footer {
     background-image: url(./../assets/image/bg-footer.png);
-    height: 841px;
+    height: 80%;
     color: #fff;
   }
   .border-footer-copy {
@@ -1241,6 +1241,51 @@ section.section {
     margin-top: 9px;
     width: 86px;
     height: 27px;
+  }
+
+  .mb-0 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-0 > a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e080";
+    float: right;
+    color: #133d60;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\e114";
+  }
+
+  .mb-1 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-1 > a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e080";
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    margin-right: 142px;
+    margin-top: 9px;
+  }
+  .mb-1 > a[aria-expanded="true"]:after {
+    content: "\e114";
+  }
+
+  .footer-title-m {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    color: white;
+    padding-left: 138px;
+  }
+
+  .background-transparent {
+    background-color: transparent;
   }
 }
 
