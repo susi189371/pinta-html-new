@@ -1106,6 +1106,10 @@ section.section {
   }
 }
 
+.container-dosen {
+  padding: 15px 35px;
+}
+
 .horizontal-dosen,
 .horizontal-ptraining {
   display: block;
@@ -1229,6 +1233,11 @@ section.section {
   .mobileTraining,
   .mobileDosen {
     display: block;
+  }
+
+  .mobileUniv {
+    margin-bottom: 60px !important;
+    margin-top: -70px !important;
   }
 
   .desktopUniv,
@@ -1419,18 +1428,23 @@ section.section {
   }
 
   .horizontal-ptraining > .card-ptraining-training {
-    margin: 0px 0px -180px 32px;
+    margin: -10px 0px -150px 32px;
   }
 
   .horizontal-dosen > .card-dosen-training > .card,
   .horizontal-ptraining > .card-ptraining-training > .card {
-    width: 360px;
+    width: 390px;
+    height: 550px;
   }
 
   .horizontal-dosen > .card-dosen-training > .card > .container-dosen > .title-dosen-training,
   .horizontal-ptraining > .card-ptraining-training > .card > .container-ptraining > .title-ptraining-training {
     font-size: 26px;
     margin-top: 10px;
+  }
+
+  .horizontal-ptraining > .card-ptraining-training > .card > .container-ptraining > .description-ptraining {
+    font-size: 15px;
   }
 
   .horizontal-dosen > .card-dosen-training > .card > .container-dosen > .price-training,
@@ -1446,8 +1460,8 @@ section.section {
 
   .btn-training {
     width: 155px;
-    height: 40px;
-    font-size: 18px;
+    height: 53px;
+    font-size: 20px;
     margin-bottom: 10px;
     background-color: #f94451;
     border: 1px solid #f94451;
