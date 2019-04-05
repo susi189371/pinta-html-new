@@ -315,13 +315,13 @@
   display: flex;
 }
 
-input:focus{
+input:focus {
   outline: none;
   border-bottom: 2px solid;
 }
 
-select:focus{
-  border-bottom: 2px solid;  
+select:focus {
+  border-bottom: 2px solid;
 }
 
 input .select {
@@ -585,6 +585,21 @@ section.section {
 .img-cerita {
   height: 288px;
   width: 100%;
+  background-size: 583px 288px !important;
+  border-radius: 5px;
+}
+.bg-cerita-mahasiswa {
+  height: 288px;
+  width: 583px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.btn-cerita-mahasiswa {
+  color: #fff;
+  font-weight: 900;
+  background-color: #f94451;
+  border: 1px solid #f94451;
+  border-radius: 5px;
 }
 .dekstop {
   display: block;
@@ -687,7 +702,16 @@ section.section {
   .img-cerita {
     height: 244px;
     width: 100%;
+    background-size: 370px 244px !important;
+    border-radius: 5px;
   }
+  .bg-cerita-mahasiswa {
+    height: 244px;
+    width: 370px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
   .text-newsLetter {
     width: 74%;
     left: 48%;
@@ -957,6 +981,17 @@ section.section {
   height: 2px;
 }
 
+.btn-training {
+  width: 155px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #f94451;
+  border: 1px solid #f94451;
+  font-weight: 800;
+}
+
+
 .mobileUniv,
 .mobileJurusan,
 .mobileTraining,
@@ -1171,6 +1206,9 @@ section.section {
     height: 40px;
     font-size: 18px;
     margin-bottom: 10px;
+    background-color: #f94451;
+    border: 1px solid #f94451;
+    font-weight: 800;
   }
 
   .desktopOnly {
@@ -1304,7 +1342,7 @@ section.section {
     background-color: transparent;
   }
 
-  .nav-item .active{
+  .nav-item .active {
     font-weight: 700;
   }
 }
