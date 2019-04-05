@@ -37,9 +37,13 @@
   width: 100%;
 }
 
+.input-group .form-control {
+  height: 51px;
+}
+
 .menu {
   color: #2291ee !important;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .img-slider {
@@ -392,7 +396,7 @@
 
 input:focus {
   outline: none;
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
 }
 
 select:focus {
@@ -439,9 +443,15 @@ form.example button {
 }
 
 .media-sosial {
-  font-size: 19px;
+  font-size: 27px;
   font-weight: 700;
   letter-spacing: 1.9px;
+}
+
+.footer-desc {
+  font-size: 21px;
+  line-height: 35px;
+  letter-spacing: 1.7px;
 }
 
 .footer {
@@ -451,34 +461,35 @@ form.example button {
 }
 
 .footer-title {
-  font-size: 30px;
+  font-size: 42px;
   font-weight: 700;
   font-style: italic;
   text-align: left;
 }
 
 .footer-subtitle {
-  font-size: 15px;
+  font-size: 27px;
   text-align: left;
+  margin: 30px 0;
 }
 
 .footer-small {
-  font-size: 10px;
+  font-size: 20px;
   font-style: italic;
   text-align: right;
   margin-top: 10px;
-  margin-right: -80px;
+  margin-right: -60px;
 }
 
 .img-logo-w {
-  width: 180px;
-  height: 63px;
+  width: 265px;
+  height: 85px;
 }
 
 .img-socmed {
-  width: 26px;
-  height: 26px;
-  margin: 0 12px 0 0px;
+  width: 40px;
+  height: 40px;
+  margin: 0 30px 0 0px;
 }
 .fade {
   opacity: 1;
@@ -573,8 +584,16 @@ section.section {
   color: black;
 }
 
+.font-70 {
+  font-size: 70px;
+}
+
 .ml-30 {
   margin-left: 30px;
+}
+
+.ml-40 {
+  margin-left: 40px;
 }
 
 .ml-50 {
@@ -585,12 +604,36 @@ section.section {
   margin-left: 60px;
 }
 
+.ml-70 {
+  margin-left: 70px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
 .mr-50 {
   margin-right: 50px;
 }
 
 .mr-60 {
   margin-right: 60px;
+}
+
+.mr-70 {
+  margin-right: 70px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mt-40 {
@@ -694,11 +737,17 @@ section.section {
 }
 
 .img-logo-header {
-  margin-top: -24px;
+  margin-top: -14px;
+  width: 187px;
+  height: 59px;
 }
 
 .header-top {
   margin-top: 7px;
+}
+
+.header-top > a > .btn-cerita-mahasiswa {
+  margin-left: 100px;
 }
 
 .img-banner {
@@ -738,6 +787,10 @@ section.section {
   display: block;
 }
 
+.navbar-nav>li>a {
+  padding-top: 22px;
+}
+
 ::ng-deep .navbar-light .navbar-toggler {
   position: absolute;
   /* color: none !important;
@@ -754,6 +807,8 @@ section.section {
 
 .footer-dekstop {
   display: block;
+  height: 744px;
+  padding: 40px 0px 0px 70px;
 }
 
 .slideshow .slide img {
@@ -1141,6 +1196,10 @@ section.section {
 .desktopTraining,
 .desktopDosen {
   display: block;
+}
+
+.desktopDosen {
+  margin: 0 60px !important;
 }
 
 @media (max-width: 480px) {
