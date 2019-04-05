@@ -315,6 +315,18 @@
   display: flex;
 }
 
+input:focus{
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+select:focus{
+  border-bottom: 2px solid;  
+}
+
+input .select {
+  outline: none;
+}
 form.example input[type="text"] {
   padding: 10px;
   font-size: 17px;
@@ -446,6 +458,7 @@ form.example button {
   color: #133d60;
   background: #ffcc01;
   margin: 20px 0;
+  outline: none;
 }
 
 .text-ingintahu::placeholder {
@@ -725,7 +738,7 @@ section.section {
     color: #fff;
   }
   .border-footer-copy {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid grey;
     width: 95%;
     margin: auto;
   }
@@ -1191,7 +1204,7 @@ section.section {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 2;
+    z-index: 1000;
     top: 0;
     left: 0;
     background-color: white;
@@ -1252,6 +1265,9 @@ section.section {
     content: "\e080";
     float: right;
     color: #133d60;
+    font-size: 14px;
+    margin-right: 11px;
+    margin-top: 3px;
   }
   .mb-0 > a[aria-expanded="true"]:after {
     content: "\e114";
@@ -1286,6 +1302,10 @@ section.section {
 
   .background-transparent {
     background-color: transparent;
+  }
+
+  .nav-item .active{
+    font-weight: 700;
   }
 }
 
