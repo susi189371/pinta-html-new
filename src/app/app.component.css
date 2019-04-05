@@ -93,7 +93,7 @@
 }
 
 .text-promo {
-  font-family: barlow;
+  font-family: "Barlow", sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: #133d60;
@@ -151,7 +151,8 @@
   bottom: 30px;
 }
 
-.lihat-semua-dosen, .lihat-semua-ptraining {
+.lihat-semua-dosen,
+.lihat-semua-ptraining {
   color: #fc0152;
   /* margin-left: 125px; */
   width: 100%;
@@ -235,7 +236,8 @@
 }
 
 .title-review {
-  font-family: Barlow-SemiBold;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
   font-size: 46px;
   color: #fff;
   font-weight: 600;
@@ -316,7 +318,7 @@
   height: 75px;
   font-size: 35px;
   font-weight: 700;
-  background-color: #F84851;
+  background-color: #f84851;
   border: none;
   border-radius: 7px;
   position: absolute;
@@ -324,50 +326,57 @@
   left: 130px;
 }
 
-.title-dosen, .title-ptraining {
-  font-family: Barlow-SemiBold;
+.title-dosen,
+.title-ptraining {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
   font-size: 31px;
   letter-spacing: 1.58px;
 }
 
 .title-ptraining-desk {
-  font-family: Barlow-SemiBold;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
   font-size: 37px;
   letter-spacing: 1.58px;
 }
 
-.position-dosen, .position-ptraining {
-  font-family: OpenSans;
+.position-dosen,
+.position-ptraining {
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-style: italic;
   letter-spacing: 0.92px;
 }
 
-.description-dosen, .description-ptraining {
-  font-family: OpenSans;
+.description-dosen,
+.description-ptraining {
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   letter-spacing: 0.92px;
 }
 
 .description-ptraining-desk {
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 23px;
   letter-spacing: 0.92px;
 }
 
 .sub-title {
   font-size: 30px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
 }
 
 .price-training {
-  font-family: Barlow-ExtraBold;
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
   color: #0baae8;
   font-size: 30px;
 }
 
 .price-ptraining-desk {
-  font-family: Barlow-ExtraBold;
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
   color: #0baae8;
   font-size: 42px;
 }
@@ -660,13 +669,13 @@ section.section {
   margin-top: 90px;
 }
 
-.with-nav-tabs.panel-primary>.panel-body {
+.with-nav-tabs.panel-primary > .panel-body {
   box-shadow: 0 -1px 14px 2px rgba(0, 0, 0, 0.08);
   border-radius: 10px 10px 10px 10px;
 }
 
 .with-nav-tabs.panel-primary {
-  margin-left:15px; 
+  margin-left: 15px;
   width: 1773px;
   /* height: 102px; */
 }
@@ -889,7 +898,7 @@ section.section {
   }
   .img-cerita {
     height: 244px;
-    width: 440px;;
+    width: 440px;
     background-size: 440px 244px !important;
     border-radius: 5px;
   }
@@ -901,9 +910,15 @@ section.section {
   }
 
   .text-newsLetter {
-    width: 74%;
-    left: 48%;
-    font-size: 20px;
+    width: 83%;
+    /* margin: 20px; */
+    left: 49%;
+    /* font-size: 20px; */
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
   }
   form.example input[type="text"] {
     width: 406px;
@@ -917,7 +932,7 @@ section.section {
     font-size: 17px;
     height: 35px;
     margin-left: -4%;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-right: -1px;
   }
   /* .footer {
@@ -960,9 +975,12 @@ section.section {
     margin: auto;
   }
   .footer-small-mobile {
-    font-size: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     margin-top: 10px;
+    letter-spacing: 1.14px;
+    line-height: 20px;
   }
 
   .pannel-width {
@@ -1009,8 +1027,9 @@ section.section {
     /* margin-left: 130px; */
   }
   .footer-subtitle {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
   }
 
   .panel-heading .accordion-toggle:after {
@@ -1087,13 +1106,14 @@ section.section {
   }
 }
 
-.horizontal-dosen, .horizontal-ptraining {
-  display:block;
-  top:0;
-  left:0;
-  width:560px;
-  max-height:420px;
-  margin:0;
+.horizontal-dosen,
+.horizontal-ptraining {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 560px;
+  max-height: 420px;
+  margin: 0;
   /* background:#abc; */
   overflow-y: auto;
   overflow-x: hidden;
@@ -1101,16 +1121,18 @@ section.section {
   transform-origin: right top;
 }
 
-.horizontal-dosen > .card-dosen, .horizontal-ptraining > .card-ptraining{
-  display:block;
+.horizontal-dosen > .card-dosen,
+.horizontal-ptraining > .card-ptraining {
+  display: block;
   /* padding:5px; */
   /* background:#cab; */
   transform: rotate(90deg);
   /* transform-origin: right top; */
 }
 
-.horizontal-dosen > .card-dosen-training, .horizontal-ptraining > .card-ptraining-training{
-  display:block;
+.horizontal-dosen > .card-dosen-training,
+.horizontal-ptraining > .card-ptraining-training {
+  display: block;
   /* padding:5px; */
   /* background:#cab; */
   transform: rotate(90deg);
@@ -1182,7 +1204,6 @@ section.section {
   border: 1px solid #f94451;
   font-weight: 800;
 }
-
 
 .mobileUniv,
 .mobileJurusan,
@@ -1356,7 +1377,7 @@ section.section {
   }
 
   .squares-dosen,
-  .squares-ptraining{
+  .squares-ptraining {
     /* padding:60px 0 0 0; */
     /* margin-left: -160px; */
     margin-left: -500px;
@@ -1383,7 +1404,7 @@ section.section {
   }
 
   .horizontal-dosen > .card-dosen > .card > .container-dosen > .position-dosen,
-  .horizontal-ptraining > .card-ptraining > .card > .container-ptraining > .position-ptraining  {
+  .horizontal-ptraining > .card-ptraining > .card > .container-ptraining > .position-ptraining {
     font-size: 12px;
   }
 
@@ -1417,7 +1438,7 @@ section.section {
     font-size: 30px;
   }
 
-  .squares-ptraining{
+  .squares-ptraining {
     /* padding:60px 0 0 0; */
     /* margin-left: -160px; */
     margin-left: -500px;
@@ -1459,9 +1480,10 @@ section.section {
     font-size: 12px;
   }
 
-  .text-ingintahu, .text-ingintahu::placeholder {
+  .text-ingintahu,
+  .text-ingintahu::placeholder {
     font-size: 12px;
-    margin: 25px 10%
+    margin: 25px 10%;
   }
 
   .overlay {
@@ -1562,6 +1584,8 @@ section.section {
     text-align: left;
     color: white;
     padding-left: 138px;
+    letter-spacing: 1px;
+    font-family: "Barlow", sans-serif;
   }
 
   .background-transparent {
@@ -1588,6 +1612,54 @@ section.section {
 
   .lihat-semua-ptraining {
     transform: rotate(0deg) translateY(125px);
+  }
+  .newsLetter {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(./../assets/image/bg-newslatter.png);
+    height: 199px;
+    width: 480px;
+  }
+  .img-logo-w {
+    width: 152px;
+    height: 48px;
+  }
+  .description-footer {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    letter-spacing: 1.12px;
+    line-height: 23px;
+  }
+  .img-socmed-mobile {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px 0 13px;
+  }
+  .media-sosial {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .lihat-semua {
+    color: #fc0152;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    margin: 20px 60px;
+    margin: -24px -2px;
+  }
+  .text-title-training {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    line-height: 42px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: -25px;
+    margin-top: 110px;
+    margin-bottom: 70px;
   }
 }
 
