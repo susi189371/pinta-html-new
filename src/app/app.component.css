@@ -39,11 +39,19 @@
 
 .input-group .form-control {
   height: 51px;
+  width: 464px;
+}
+
+.input-group .form-control {
+  height: 51px;
 }
 
 .menu {
   color: #2291ee !important;
   font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 59px;
+  margin-left: 23px;
 }
 
 .img-slider {
@@ -820,6 +828,17 @@ section.section {
   border-radius: 5px;
   width: 220px;
   height: 50px;
+}
+.btn-request {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 900;
+  background-color: #f94451;
+  border: 1px solid #f94451;
+  border-radius: 5px;
+  width: 220px;
+  height: 50px;
+  margin-left: -36px;
 }
 .dekstop {
   display: block;
@@ -1815,6 +1834,18 @@ section.section {
     font-size: 30px;
     line-height: 40px;
     font-family: "Barlow", sans-serif;
+  }
+  .btn-request {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: #f94451;
+    border: 1px solid #f94451;
+    border-radius: 5px;
+    width: 98px;
+    height: 26px;
+    padding: 0px;
+    margin-left: 2px;
   }
 }
 
