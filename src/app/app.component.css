@@ -235,6 +235,10 @@
   font-size: 35px;
 }
 
+.tampung-review {
+  margin: 3rem 50px 0 50px;
+}
+
 .title-review {
   font-weight: 600;
   font-family: "Barlow", sans-serif;
@@ -326,6 +330,11 @@
   left: 130px;
 }
 
+.img-dosen {
+  width: 100%;
+  height: 330px;
+}
+
 .title-dosen,
 .title-ptraining {
   font-family: "Barlow", sans-serif;
@@ -336,7 +345,7 @@
 
 .title-ptraining-desk {
   font-family: "Barlow", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 37px;
   letter-spacing: 1.58px;
 }
@@ -439,6 +448,7 @@ form.example button {
   background: #f94451;
   color: white;
   font-size: 35px;
+  font-weight: 700;
   border-left: none;
   cursor: pointer;
   border-radius: 10px;
@@ -457,6 +467,23 @@ form.example button {
   font-size: 27px;
   font-weight: 700;
   letter-spacing: 1.9px;
+  margin-top: 50px;
+}
+
+.footer-left {
+  width: 25%;
+}
+
+.footer-right {
+  width: 60.66%;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.footer-bottom {
+  width: 94%;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .footer-desc {
@@ -488,8 +515,6 @@ form.example button {
   font-size: 20px;
   font-style: italic;
   text-align: right;
-  margin-top: 10px;
-  margin-right: -60px;
 }
 
 .img-logo-w {
@@ -595,7 +620,7 @@ section.section {
   color: black;
 }
 
-.font-70 {
+.font-heading {
   font-size: 70px;
 }
 
@@ -640,7 +665,11 @@ section.section {
 }
 
 .mr-70 {
-  margin-right: 70px;
+  margin-right: 70px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .mt-30 {
@@ -669,6 +698,10 @@ section.section {
 
 .mt-90 {
   margin-top: 90px;
+}
+
+.tampung-tab {
+  margin: 3rem;
 }
 
 .with-nav-tabs.panel-primary > .panel-body {
@@ -818,7 +851,7 @@ section.section {
 
 .footer-dekstop {
   display: block;
-  height: 744px;
+  height: 700px;
   padding: 40px 0px 0px 70px;
 }
 
@@ -862,8 +895,11 @@ section.section {
   .menu-close {
     display: none;
   }
+  .header-top {
+    margin-top: 10px;
+  }
   .img-logo-header {
-    margin-top: -44px;
+    margin-top: -40px;
     width: 86px;
     height: 27px;
     margin-left: 145px;
@@ -1121,7 +1157,7 @@ section.section {
   top: 0;
   left: 0;
   width: 560px;
-  max-height: 420px;
+  max-height: 435px;
   margin: 0;
   /* background:#abc; */
   overflow-y: auto;
@@ -1232,6 +1268,13 @@ section.section {
   margin: 0 60px !important;
 }
 
+@media (max-width: 370px) {
+  .lihat-semua-dosen {
+    margin-left: 115px;
+    transform: rotate(0deg) translateY(35px);
+  }
+}
+
 @media (max-width: 480px) {
   .mobileUniv,
   .mobileJurusan,
@@ -1262,7 +1305,7 @@ section.section {
     padding: 16px;
   }
   .text-univ {
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 5px;
     text-align: center;
     height: 100px;
@@ -1280,7 +1323,7 @@ section.section {
     top: 0;
     left: 0;
     width: 560px;
-    height: 430px;
+    height: 450px;
     margin: 0;
     /* background:#abc; */
     overflow-y: auto;
@@ -1339,7 +1382,7 @@ section.section {
     top: 0;
     left: 0;
     width: 560px;
-    height: 420px;
+    height: 435px;
     margin: 0;
     margin-top: -220px;
     /* background:#abc; */
@@ -1463,7 +1506,7 @@ section.section {
   }
 
   .btn-training {
-    width: 155px;
+    width: 195px;
     height: 53px;
     font-size: 20px;
     margin-bottom: 10px;
@@ -1635,10 +1678,12 @@ section.section {
   .lihat-semua-dosen {
     transform: rotate(0deg) translateY(110px);
     padding-right: 0;
+    margin-left: 20px;
   }
 
   .lihat-semua-ptraining {
-    transform: rotate(0deg) translateY(125px);
+    transform: rotate(0deg) translateY(110px);
+    margin-left: 35px;
   }
   .newsLetter {
     position: relative;
@@ -1676,7 +1721,13 @@ section.section {
     font-family: "Open Sans", sans-serif;
     font-weight: 900;
     margin: 20px 60px;
-    margin: -24px -2px;
+    margin: -50px -15px -24px;
+  }
+  .all-review {
+    margin: 25px 5px 0 0 !important;
+  }
+  .all-univ {
+    margin: 0 -5px -50px !important;
   }
   .text-title-training {
     font-family: "Barlow", sans-serif;
@@ -1740,7 +1791,7 @@ section.section {
     line-height: 19px;
   }
   .cerita-mahasiswa {
-    left: 82%;
+    left: 72%;
   }
   .btn-cerita-mahasiswa {
     color: #fff;
@@ -1767,9 +1818,264 @@ section.section {
   }
 }
 
-@media (max-width: 370px) {
-  .lihat-semua-dosen {
-    margin-left: 115px;
-    transform: rotate(0deg) translateY(35px);
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .lihat-semua {
+    font-size: 30px;
+    margin: 20px 20px;
+  }
+
+  .ml-30 {
+    margin-left: 0;
+  }
+
+  .font-heading {
+    font-size: 40px;
+  }
+
+  .img-logo-header {
+    width: 140px;
+    height: 45px;
+  }
+  .menu {
+    font-size: 20px;
+  }
+  .navbar-nav>li {
+    margin-top: -15px;
+    padding: 0
+  }
+  .input-group .form-control {
+    height: 32px;
+  }
+  .header-top {
+    margin-top: 17px;
+    margin-right: 35px;
+  }
+  .header-top > a > .btn-cerita-mahasiswa {
+    margin-left: 35px;
+  }
+  .navbar {
+    margin-bottom: -15px;
+  }
+
+  .img-slider {
+    height: 550px;
+  }
+
+  .img-univ {
+    width: 210px;
+    height: 210px;
+  }
+  .card-univ {
+    margin: 17px;
+  }
+  .text-univ {
+    font-size: 25px;
+    width: 210px;
+    margin: 0 17px;
+  }
+  .jurusan {
+    width: 280px;
+    height: 140px;
+    margin: 0 15px 0 15px;
+  }
+  .text-jurusan, .text-training {
+    font-size: 30px;
+    padding: 35px;
+  }
+
+  .img-banner {
+    height: 250px;
+  }
+
+  .tampung-tab {
+    margin: 0;
+  }
+  .img-tabmenu {
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  .tab-description {
+    font-size: 25px;
+    margin: 0;
+  }
+  .with-nav-tabs.panel-primary {
+    width: 100%;
+  }
+  .with-nav-tabs.panel-primary .nav-tabs > li > a,
+  .with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+  .with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    font-size: 17px;
+    margin: 20px 10px 0px 10px;
+    padding: 10px 40px;
+  }  
+  .with-nav-tabs.panel-primary {
+    margin: 0 0 40px 0;
+  }
+
+  .request {
+    height: 616px;
+  }
+  .img-request {
+    height: 587px;
+    width: 100%;
+  }
+  
+  .mobileIngintahu {
+    padding: 20px 100px 0;
+  }
+  .title-ingintahu {
+    font-size: 35px;
+  }
+  .subtitle-ingintahu {
+    font-size: 14px;
+    padding: 0 60px;
+  }
+  .text-ingintahu {
+    font-size: 17px;
+    margin: 20px 10%;
+  }
+  .btn-ingintahu {
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+  }
+  input:focus {
+    border-bottom: 2px solid;
+  }
+
+  .container-review {
+    padding: 0;
+  }
+  .img-cerita {
+    width: 575px;
+    height: 335px;
+    background-size: 575px 335px !important;
+  }
+  .bg-cerita-mahasiswa {
+    width: 575px;
+    height: 335px;
+  }
+  .cerita-mahasiswa {
+    left: 70%;
+  }
+  .tampung-review {
+    margin: 3rem 50px 0 57px;
+  }
+  .title-review {
+    font-size: 35px;
+  }
+  .position-review {
+    font-size: 22px;
+  }
+  .description-review {
+    font-size: 13px;
+  }
+  .btn-cerita-mahasiswa {
+    font-size: 15px;
+    width: 150px;
+    height: 35px;
+  }
+
+  .desktopDosen {
+    margin: 0 30px !important;
+  }
+  .card,
+  .card-ptraining-desk {
+    width: 380px;
+    height: 500px;
+  }
+  .img-dosen {
+    height: 225px;
+  }
+  .container-dosen,
+  .container-ptraining-desk {
+    padding: 15px 25px;
+  }
+  .title-dosen,
+  .title-ptraining-desk {
+    font-size: 22px;
+  }
+  .position-dosen,
+  .position-ptraining-desk {
+    font-size: 12px;
+  }
+  .description-dosen,
+  .description-ptraining-desk {
+    font-size: 12px;
+  }
+  .price-ptraining-desk {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .btn-detail {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    left: 27%;
+  }
+  .baca-selengkapnya {
+    font-size: 17px;
+    bottom: 10px;
+  }
+
+  .newsLetter {
+    height: 300px;
+  }  
+  .text-newsLetter {
+    top: 28%;
+    width: 75%;
+    font-size: 40px;
+  }
+  form.example input[type="text"] {
+    width: 650px;
+    height: 50px;
+  }
+  form.example button {
+    width: 150px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: -15%;
+    margin-top: 7px;
+    padding: 0;
+  }
+  .footer-dekstop {
+    padding: 10px 0px 0px 10px;
+    height: 570px;
+  }
+  .footer-desc {
+    font-size: 15px;
+    line-break: 28px;
+  }
+  .footer-title {
+    font-size: 30px;
+  }
+  .footer-subtitle {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .footer-small {
+    font-size: 17px;
+  }
+  .footer-left {
+    width: 30%;
+  }
+  .footer-right {
+    margin-left: 60px;
+  }
+  .media-sosial {
+    margin-top: 35px;
+    font-size: 25px;
+  }
+  .img-logo-w {
+    width: 180px;
+    height: 55px;
+  }
+  .img-socmed {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 0 0px;
   }
 }
