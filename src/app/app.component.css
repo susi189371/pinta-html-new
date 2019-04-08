@@ -14,7 +14,7 @@
   border-right: 0px solid !important;
 }
 
- .input-group-addon {
+.input-group-addon {
   margin-bottom: 0px;
   font-size: 1rem;
   font-weight: 400;
@@ -30,7 +30,7 @@
   border-radius: 0 38px 38px 0;
 }
 
- .input-group {
+.input-group {
   position: relative;
   display: -ms-flexbox;
   width: 100%;
@@ -58,7 +58,7 @@
   width: 100%;
 }
 
- .carousel-indicators li {
+.carousel-indicators li {
   width: 0.625rem;
   height: 0.625rem;
   -webkit-border-radius: 50%;
@@ -279,7 +279,7 @@
   padding: 10px 25px;
 }
 
- .card {
+.card {
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -395,7 +395,7 @@
   position: relative;
   text-align: center;
   color: white;
-  background-image: url(./../assets/image/bg-newslatter.png);
+  background-image: url(/assets/image/bg-newslatter.png);
   height: 426px;
 }
 
@@ -425,6 +425,7 @@ select:focus {
 input .select {
   outline: none;
 }
+
 form.example input[type="text"] {
   padding: 10px;
   font-size: 17px;
@@ -492,7 +493,7 @@ form.example button {
 }
 
 .footer {
-  background-image: url(./../assets/image/bg-footer.png);
+  background-image: url(/assets/image/bg-footer.png);
   height: 350px;
   color: #fff;
 }
@@ -526,6 +527,7 @@ form.example button {
   height: 40px;
   margin: 0 30px 0 0px;
 }
+
 .fade {
   opacity: 1;
   transition: opacity 0.15s linear;
@@ -609,12 +611,12 @@ section.section {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
 
-.slideshow > .slide > img {
+.slideshow>.slide>img {
   max-width: 100%;
   width: 100%;
 }
 
-.slideshow > .slick-prev:before,
+.slideshow>.slick-prev:before,
 .slick-next:before {
   color: black;
 }
@@ -708,14 +710,15 @@ section.section {
   box-shadow: none;
 }
 
-.garis-pembatas, .pembatas-mobile {
+.garis-pembatas,
+.pembatas-mobile {
   width: 92%;
   height: 3px;
   margin-left: 4%;
   background-color: #DCDCDC;
 }
 
-.with-nav-tabs.panel-primary > .panel-body {
+.with-nav-tabs.panel-primary>.panel-body {
   box-shadow: 0 -1px 14px 2px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
 }
@@ -730,19 +733,19 @@ section.section {
   border: none;
 }
 
-.with-nav-tabs.panel-primary > .panel-heading {
+.with-nav-tabs.panel-primary>.panel-heading {
   padding: 10px 15px 0px 15px;
   border-bottom: none;
   background-color: white;
 }
 
-.with-nav-tabs.panel-primary .nav-tabs > li > a.active {
+.with-nav-tabs.panel-primary .nav-tabs>li>a.active {
   background-color: white;
 }
 
-.with-nav-tabs.panel-primary .nav-tabs > li > a,
-.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
-.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+.with-nav-tabs.panel-primary .nav-tabs>li>a,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
   color: #133d60;
   font-weight: bold;
   background-color: #e6e4e4;
@@ -753,36 +756,42 @@ section.section {
   font-size: 25px;
   border-bottom: 1px solid white;
 }
-.with-nav-tabs.panel-primary .nav-tabs > .open > a,
-.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
-.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
-.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
-.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+
+.with-nav-tabs.panel-primary .nav-tabs>.open>a,
+.with-nav-tabs.panel-primary .nav-tabs>.open>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>.open>a:focus,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
   background-color: white;
   border-color: transparent;
 }
-.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
-.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
-.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a,
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a:focus {
   color: #133d60;
   background-color: #fff;
   border-color: transparent;
   border-bottom-color: transparent;
 }
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu {
   background-color: #428bca;
   border-color: transparent;
 }
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a {
   color: #fff;
 }
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>li>a:focus {
   background-color: #3071a9;
 }
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
-.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a,
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.dropdown .dropdown-menu>.active>a:focus {
   background-color: #4a9fe9;
 }
 
@@ -800,7 +809,7 @@ section.section {
   margin-top: 7px;
 }
 
-.header-top > a > .btn-cerita-mahasiswa {
+.header-top>a>.btn-cerita-mahasiswa {
   margin-left: 100px;
 }
 
@@ -815,12 +824,14 @@ section.section {
   background-size: 864px 480px !important;
   border-radius: 8px;
 }
+
 .bg-cerita-mahasiswa {
   height: 480px;
   width: 864px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
 }
+
 .btn-cerita-mahasiswa {
   color: #fff;
   font-size: 23px;
@@ -831,6 +842,7 @@ section.section {
   width: 220px;
   height: 50px;
 }
+
 .btn-request {
   color: #fff;
   font-size: 23px;
@@ -842,21 +854,24 @@ section.section {
   height: 50px;
   margin-left: -36px;
 }
+
 .dekstop {
   display: block;
 }
+
 .mobile {
   display: none !important;
 }
+
 .menu-close {
   display: block;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
   padding-top: 22px;
 }
 
- .navbar-light .navbar-toggler {
+.navbar-light .navbar-toggler {
   position: absolute;
 }
 
@@ -872,7 +887,6 @@ section.section {
 
 .slideshow .slide img {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
-
   max-width: 100%;
   width: 100%;
 }
@@ -880,7 +894,6 @@ section.section {
 .slideshow .slick-prev:before,
 .slick-next:before {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
-
   color: black;
 }
 
@@ -888,266 +901,6 @@ section.section {
   position: absolute;
   width: 100%;
   bottom: 10px;
-}
-
-@media (max-width: 480px) {
-  .dekstop {
-    display: none;
-  }
-  .mobile {
-    display: block !important;
-  }
-  .garis-pembatas {
-    height: 2px;
-  }
-  .pembatas-mobile {
-    height: 2px;
-    margin: 120px 4% -120px;
-  }
-  .menu-close {
-    display: none;
-  }
-  .header-top {
-    margin-top: 10px;
-  }
-  .img-logo-header {
-    margin-top: -40px;
-    width: 86px;
-    height: 27px;
-    margin-left: 145px;
-    background-color: white;
-  }
-  .mobile-menu {
-    margin-top: -33px;
-    margin-left: 280px;
-  }
-  .search-icon {
-    margin: 4px 10px 3px 24px;
-  }
-  .navbar-light .navbar-toggler {
-    position: absolute;
-    color: rgba(0, 0, 0, 0.5);
-    border-color: white !important;
-  }
-  .navbar {
-    margin-bottom: -25px;
-  }
-  .img-slider {
-    height: 300px;
-    width: 480px;
-  }
-  .text-promo {
-    font-size: 30px;
-    padding: 10px;
-    letter-spacing: 0.8px;
-  }
-  .img-banner {
-    height: 150px;
-    width: 480px;
-  }
-  .img-cerita {
-    height: 244px;
-    width: 440px;
-    background-size: 440px 244px !important;
-    border-radius: 8px;
-  }
-  .bg-cerita-mahasiswa {
-    height: 244px;
-    width: 440px;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-  }
-  
-  .carousel-inner {
-    position: relative;
-    width: 480px;
-    overflow: hidden;
-}
-
-  .text-newsLetter {
-    width: 83%;
-    left: 49%;
-    font-size: 19px;
-    letter-spacing: 1px;
-    line-height: 29px;
-    font-family: "Barlow", sans-serif;
-    font-weight: 600;
-  }
-  form.example input[type="text"] {
-    width: 406px;
-    height: 42px;
-    top: 72%;
-    left: 51%;
-  }
-  form.example button {
-    width: 110px;
-    padding: 6px;
-    font-size: 17px;
-    height: 35px;
-    margin-left: -4%;
-    margin-top: 4px;
-    margin-right: -1px;
-  }
-
-   .navbar-light .navbar-toggler-icon {
-    margin-left: -365px;
-  }
-  
-  .footer-mobile {
-    display: block !important;
-  }
-
-  .footer-dekstop {
-    display: none;
-  }
-  .footer {
-    background-image: url(./../assets/image/bg-footer.png);
-    height: 80%;
-    color: #fff;
-  }
-  .border-footer-copy {
-    border-bottom: 2px solid grey;
-    width: 95%;
-    margin: auto;
-  }
-  .border-footer-bold {
-    border-bottom: 2px solid;
-    width: 95%;
-    margin: auto;
-  }
-  .footer-small-mobile {
-    font-size: 12px;
-    font-family: "Open Sans", sans-serif;
-    font-style: italic;
-    margin-top: 10px;
-    letter-spacing: 1.14px;
-    line-height: 20px;
-  }
-
-  .pannel-width {
-    width: 42%;
-  }
-
-   .panel-default > .panel-heading {
-    background-color: transparent !important;
-  }
-
-  .panel {
-    background-color: transparent !important;
-    border: 1px solid transparent;
-  }
-
-  .footer-title {
-    font-size: 28px;
-    font-weight: 700;
-    font-style: italic;
-    text-align: left;
-    color: white;
-  }
-  .footer-subtitle {
-    font-size: 17px;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-  }
-
-  .input-group-addon {
-    color: #fc0152;
-    background-color: #ededed !important;
-    border-color: #ededed;
-    font-weight: 400;
-  }
-
-  .panel-heading .accordion-toggle:after {
-    /* symbol for "opening" panels */
-    font-family: "Glyphicons Halflings"; /* essential for enabling glyphicon */
-    content: "\e114"; /* adjust as needed, taken from bootstrap.css */
-    float: right; /* adjust as needed */
-    color: white; /* adjust as needed */
-    font-size: 15px;
-    margin-right: 130px;
-    margin-top: 10px;
-  }
-  .panel-heading .accordion-toggle.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\e080"; /* adjust as needed, taken from bootstrap.css */
-    font-size: 15px;
-    margin-right: 130px;
-    margin-top: 10px;
-  }
-
-  a:focus,
-  a:hover {
-    text-decoration: none;
-  }
-
-  .panel-group .panel-heading + .panel-collapse > .list-group,
-  .panel-group .panel-heading + .panel-collapse > .panel-body {
-    border-top: 1px solid transparent;
-  }
-
-  .panel-heading button:before {
-    font-family: "Glyphicons Halflings";
-    content: "\e114";
-    float: right;
-    transition: all 0.5s;
-  }
-  .panel-heading.active button:before {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
-  .collapsed > .when-opened,
-  :not(.collapsed) > .when-closed {
-    display: none;
-  }
-
-  .card-ijazah {
-    box-shadow: 0 2px 14px 2px rgba(0, 0, 0, 0.08);
-    border: none;
-    margin: 0 20px;
-    border-radius: 8px;
-  }
-
-  .card-ijazah > .collapse {
-    height: 360px;
-  }
-
-  .card-header {
-    background-color: white;
-    border: none;
-    text-align: center;
-    height: 75px;
-    border-radius: 8px;
-  }
-
-  .btn-ijazah {
-    font-size: 20px;
-    color: #133d60;
-    font-weight: 700;
-  }
-
-  .tab-description {
-    padding: 0 20px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: 0;
-    font-family: "Open sans", sans-serif;
-  }
-
-  .baca-selengkapnya {
-    font-size: 16px;
-  }
-  .input-group .form-control {
-    height: 30px;
-    width: 371px;
-    margin-left: -17px;
-    background-color: #f6f6f6;
-    border: 1px solid #ededed;
-  }
-  input::placeholder {
-    font-style: italic;
-  }
 }
 
 .container-dosen {
@@ -1168,14 +921,14 @@ section.section {
   transform-origin: right top;
 }
 
-.horizontal-dosen > .card-dosen,
-.horizontal-ptraining > .card-ptraining {
+.horizontal-dosen>.card-dosen,
+.horizontal-ptraining>.card-ptraining {
   display: block;
   transform: rotate(90deg);
 }
 
-.horizontal-dosen > .card-dosen-training,
-.horizontal-ptraining > .card-ptraining-training {
+.horizontal-dosen>.card-dosen-training,
+.horizontal-ptraining>.card-ptraining-training {
   display: block;
   transform: rotate(90deg);
 }
@@ -1192,12 +945,13 @@ section.section {
   transform: rotate(-90deg) translateY(-80px);
   transform-origin: right top;
 }
-.horizontal-scroll-wrapper > .card-image {
+
+.horizontal-scroll-wrapper>.card-image {
   display: block;
   transform: rotate(90deg);
 }
 
-.horizontal-scroll-wrapper > .card-text {
+.horizontal-scroll-wrapper>.card-text {
   display: block;
   width: 210px;
   transform: rotate(90deg);
@@ -1207,7 +961,7 @@ section.section {
   margin-left: -480px;
 }
 
-.squares > .card-image {
+.squares>.card-image {
   margin: -130px 30px -300px;
 }
 
@@ -1215,6 +969,7 @@ section.section {
   width: 2px;
   height: 2px;
 }
+
 ::-webkit-scrollbar-button {
   width: 2px;
   height: 2px;
@@ -1250,815 +1005,995 @@ section.section {
 
 @media (max-width: 375px) {
   .lihat-semua-dosen {
-    margin-left: 115px;
-    transform: rotate(0deg) translateY(35px);
+      margin-left: 115px;
+      transform: rotate(0deg) translateY(35px);
   }
   .text-promo {
-    width: 450px;
+      width: 450px;
   }
 }
 
 @media (max-width: 480px) {
+  .dekstop {
+      display: none;
+  }
+  .mobile {
+      display: block !important;
+  }
+  .garis-pembatas {
+      height: 2px;
+  }
+  .pembatas-mobile {
+      height: 2px;
+      margin: 120px 4% -120px;
+  }
+  .menu-close {
+      display: none;
+  }
+  .header-top {
+      margin-top: 10px;
+      margin-right: 1px;
+  }
+  .img-logo-header {
+      margin-top: -40px;
+      width: 86px;
+      height: 27px;
+      margin-left: 145px;
+      background-color: white;
+  }
+  .mobile-menu {
+      margin-top: -33px;
+      margin-left: 280px;
+  }
+  .search-icon {
+      margin: 4px 10px 3px 24px;
+  }
+  .navbar-light .navbar-toggler {
+      position: absolute;
+      color: rgba(0, 0, 0, 0.5);
+      border-color: white !important;
+  }
+  .navbar {
+      margin-bottom: -25px;
+  }
+  .img-slider {
+      height: 300px;
+      width: 480px;
+  }
+  .text-promo {
+      font-size: 30px;
+      padding: 10px;
+      letter-spacing: 0.8px;
+  }
+  .img-banner {
+      height: 150px;
+      width: 480px;
+  }
+  .img-cerita {
+      height: 244px;
+      width: 440px;
+      background-size: 440px 244px !important;
+      border-radius: 8px;
+  }
+  .bg-cerita-mahasiswa {
+      height: 244px;
+      width: 440px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+  }
+  .carousel-inner {
+      position: relative;
+      width: 480px;
+      overflow: hidden;
+  }
+  .text-newsLetter {
+      width: 83%;
+      left: 49%;
+      font-size: 19px;
+      letter-spacing: 1px;
+      line-height: 29px;
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+  }
+  form.example input[type="text"] {
+      width: 406px;
+      height: 42px;
+      top: 72%;
+      left: 51%;
+  }
+  form.example button {
+      width: 110px;
+      padding: 6px;
+      font-size: 17px;
+      height: 35px;
+      margin-left: -4%;
+      margin-top: 4px;
+      margin-right: -1px;
+  }
+  .navbar-light .navbar-toggler-icon {
+      margin-left: -365px;
+  }
+  .footer-mobile {
+      display: block !important;
+  }
+  .footer-dekstop {
+      display: none;
+  }
+  .footer {
+      background-image: url(/assets/image/bg-footer.png);
+      height: 80%;
+      color: #fff;
+  }
+  .border-footer-copy {
+      border-bottom: 2px solid grey;
+      width: 95%;
+      margin: auto;
+  }
+  .border-footer-bold {
+      border-bottom: 2px solid;
+      width: 95%;
+      margin: auto;
+  }
+  .footer-small-mobile {
+      font-size: 12px;
+      font-family: "Open Sans", sans-serif;
+      font-style: italic;
+      margin-top: 10px;
+      letter-spacing: 1.14px;
+      line-height: 20px;
+  }
+  .pannel-width {
+      width: 42%;
+  }
+  .panel-default>.panel-heading {
+      background-color: transparent !important;
+  }
+  .panel {
+      background-color: transparent !important;
+      border: 1px solid transparent;
+  }
+  .footer-title {
+      font-size: 28px;
+      font-weight: 700;
+      font-style: italic;
+      text-align: left;
+      color: white;
+  }
+  .footer-subtitle {
+      font-size: 17px;
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+  }
+  .input-group-addon {
+      color: #fc0152;
+      background-color: #ededed !important;
+      border-color: #ededed;
+      font-weight: 400;
+  }
+  .panel-heading .accordion-toggle:after {
+      /* symbol for "opening" panels */
+      font-family: "Glyphicons Halflings";
+      /* essential for enabling glyphicon */
+      content: "\e114";
+      /* adjust as needed, taken from bootstrap.css */
+      float: right;
+      /* adjust as needed */
+      color: white;
+      /* adjust as needed */
+      font-size: 15px;
+      margin-right: 130px;
+      margin-top: 10px;
+  }
+  .panel-heading .accordion-toggle.collapsed:after {
+      /* symbol for "collapsed" panels */
+      content: "\e080";
+      /* adjust as needed, taken from bootstrap.css */
+      font-size: 15px;
+      margin-right: 130px;
+      margin-top: 10px;
+  }
+  a:focus,
+  a:hover {
+      text-decoration: none;
+  }
+  .panel-group .panel-heading+.panel-collapse>.list-group,
+  .panel-group .panel-heading+.panel-collapse>.panel-body {
+      border-top: 1px solid transparent;
+  }
+  .panel-heading button:before {
+      font-family: "Glyphicons Halflings";
+      content: "\e114";
+      float: right;
+      transition: all 0.5s;
+  }
+  .panel-heading.active button:before {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+  }
+  .collapsed>.when-opened,
+   :not(.collapsed)>.when-closed {
+      display: none;
+  }
+  .card-ijazah {
+      box-shadow: 0 2px 14px 2px rgba(0, 0, 0, 0.08);
+      border: none;
+      margin: 0 20px;
+      border-radius: 8px;
+  }
+  .card-ijazah>.collapse {
+      height: 360px;
+  }
+  .card-header {
+      background-color: white;
+      border: none;
+      text-align: center;
+      height: 75px;
+      border-radius: 8px;
+  }
+  .btn-ijazah {
+      font-size: 20px;
+      color: #133d60;
+      font-weight: 700;
+  }
+  .tab-description {
+      padding: 0 20px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 100;
+      margin-top: 0;
+      font-family: "Open sans", sans-serif;
+  }
+  .baca-selengkapnya {
+      font-size: 16px;
+  }
+  .input-group .form-control {
+      height: 30px;
+      width: 371px;
+      margin-left: -17px;
+      background-color: #f6f6f6;
+      border: 1px solid #ededed;
+  }
+  input::placeholder {
+      font-style: italic;
+  }
   .mobileUniv,
   .mobileJurusan,
   .mobileTraining,
   .mobileDosen {
-    display: block;
+      display: block;
   }
-
   .mobileUniv {
-    margin-bottom: 60px !important;
-    margin-top: -70px !important;
+      margin-bottom: 60px !important;
+      margin-top: -70px !important;
   }
-
   .desktopUniv,
   .desktopJurusan,
   .desktopTraining,
   .desktopDosen {
-    display: none;
+      display: none;
   }
-
   .card-univ {
-    margin: 15px;
+      margin: 15px;
   }
-
   .img-univ {
-    height: 108px;
-    width: 108px;
-    padding: 16px;
+      height: 108px;
+      width: 108px;
+      padding: 16px;
   }
-
   .text-univ {
-    background-color: transparent;
-    padding: 15px 0px;
-    font-size: 13px;
-    width: 108px;
-    margin-left: 190px;
-    margin-top: -15px;
+      background-color: transparent;
+      padding: 15px 0px;
+      font-size: 13px;
+      width: 108px;
+      margin-left: 190px;
+      margin-top: -15px;
   }
-
   .horizontal-scroll-wrapper {
-    display: block;
-    top: 0;
-    left: 0;
-    width: 560px;
-    height: 450px;
-    margin: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transform: rotate(-90deg) translateY(-80px);
-    transform-origin: right top;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 560px;
+      height: 450px;
+      margin: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transform: rotate(-90deg) translateY(-80px);
+      transform-origin: right top;
   }
-  .horizontal-scroll-wrapper > .card-text {
-    display: block;
-    width: 120px;
-    transform: rotate(90deg);
+  .horizontal-scroll-wrapper>.card-text {
+      display: block;
+      width: 120px;
+      transform: rotate(90deg);
   }
   .squares {
-    margin-left: -500px;
+      margin-left: -500px;
   }
-  .squares > .card-image {
-    margin: -140px 30px -290px;
+  .squares>.card-image {
+      margin: -140px 30px -290px;
   }
-
-  .squares > .card-image > .card-text {
-    margin-bottom: -40px;
+  .squares>.card-image>.card-text {
+      margin-bottom: -40px;
   }
-
   /* styling horizontal jurusan */
-
   .img-jurusan {
-    height: 79px;
-    width: 168px;
-    border-radius: 8px;
+      height: 79px;
+      width: 168px;
+      border-radius: 8px;
   }
   .text-jurusan {
-    background-color: transparent;
-    border-radius: 5px;
-    text-align: center;
-    height: 50px;
-    padding: 10px;
-    color: white;
-    font-size: 17px;
-    font-weight: 700;
-    width: 180px;
-    font-family: "Barlow", sans-serif;
+      background-color: transparent;
+      border-radius: 5px;
+      text-align: center;
+      height: 50px;
+      padding: 10px;
+      color: white;
+      font-size: 17px;
+      font-weight: 700;
+      width: 180px;
+      font-family: "Barlow", sans-serif;
   }
   .horizontal-jurusan {
-    display: block;
-    top: 0;
-    left: 0;
-    width: 560px;
-    height: 435px;
-    margin: 0;
-    margin-top: -220px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    transform: rotate(-90deg) translateY(-80px);
-    transform-origin: right top;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 560px;
+      height: 435px;
+      margin: 0;
+      margin-top: -220px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transform: rotate(-90deg) translateY(-80px);
+      transform-origin: right top;
   }
-
-  .horizontal-jurusan > .card-image-jurusan {
-    display: block;
-    transform: rotate(90deg);
+  .horizontal-jurusan>.card-image-jurusan {
+      display: block;
+      transform: rotate(90deg);
   }
-
-  .horizontal-jurusan > .card-text-jurusan {
-    display: block;
-    width: 120px;
-    transform: rotate(90deg);
+  .horizontal-jurusan>.card-text-jurusan {
+      display: block;
+      width: 120px;
+      transform: rotate(90deg);
   }
-
   .squares-jurusan {
-    margin-left: -500px;
-    margin-top: -320px;
+      margin-left: -500px;
+      margin-top: -320px;
   }
-
-  .squares-jurusan > .card-image-jurusan {
-    margin: 50px 0 160px 145px;
-    width: 175px;
+  .squares-jurusan>.card-image-jurusan {
+      margin: 50px 0 160px 145px;
+      width: 175px;
   }
-
-  .squares-jurusan > .card-image-jurusan > .card-text-jurusan {
-    margin-bottom: -60px;
+  .squares-jurusan>.card-image-jurusan>.card-text-jurusan {
+      margin-bottom: -60px;
   }
-
   .squares-dosen,
   .squares-ptraining {
-    margin-left: -500px;
+      margin-left: -500px;
   }
-
-  .horizontal-dosen > .card-dosen,
-  .horizontal-ptraining > .card-ptraining {
-    margin: 3px 0px -145px 33px;
+  .horizontal-dosen>.card-dosen,
+  .horizontal-ptraining>.card-ptraining {
+      margin: 3px 0px -145px 33px;
   }
-
-  .horizontal-dosen > .card-dosen > .card,
-  .horizontal-ptraining > .card-ptraining > .card {
-    width: 362px;
-    height: 525px;
-    border-radius: 8px;
+  .horizontal-dosen>.card-dosen>.card,
+  .horizontal-ptraining>.card-ptraining>.card {
+      width: 362px;
+      height: 525px;
+      border-radius: 8px;
   }
-
-  .horizontal-dosen > .card-dosen > .card > .container-dosen > .title-dosen,
-  .horizontal-ptraining > .card-ptraining > .card > .container-ptraining > .title-ptraining {
-    font-size: 20px;
-    margin-top: 10px;
+  .horizontal-dosen>.card-dosen>.card>.container-dosen>.title-dosen,
+  .horizontal-ptraining>.card-ptraining>.card>.container-ptraining>.title-ptraining {
+      font-size: 20px;
+      margin-top: 10px;
   }
-
-  .horizontal-dosen > .card-dosen > .card > .container-dosen > .position-dosen,
-  .horizontal-ptraining > .card-ptraining > .card > .container-ptraining > .position-ptraining {
-    font-size: 12px;
+  .horizontal-dosen>.card-dosen>.card>.container-dosen>.position-dosen,
+  .horizontal-ptraining>.card-ptraining>.card>.container-ptraining>.position-ptraining {
+      font-size: 12px;
   }
-
-  .horizontal-dosen > .card-dosen > .card > .container-dosen > .description-dosen,
-  .horizontal-ptraining > .card-ptraining > .card > .container-ptraining > .description-ptraining {
-    font-size: 14px;
+  .horizontal-dosen>.card-dosen>.card>.container-dosen>.description-dosen,
+  .horizontal-ptraining>.card-ptraining>.card>.container-ptraining>.description-ptraining {
+      font-size: 14px;
   }
-
-  .horizontal-dosen > .card-dosen-training {
-    margin: 0px 0 -100px 70px;
+  .horizontal-dosen>.card-dosen-training {
+      margin: 0px 0 -100px 70px;
   }
-
-  .horizontal-ptraining > .card-ptraining-training {
-    margin: -25px 25px -150px 32px;
+  .horizontal-ptraining>.card-ptraining-training {
+      margin: -25px 25px -150px 32px;
   }
-
-  .horizontal-dosen > .card-dosen-training > .card,
-  .horizontal-ptraining > .card-ptraining-training > .card {
-    width: 390px;
-    height: 550px;
+  .horizontal-dosen>.card-dosen-training>.card,
+  .horizontal-ptraining>.card-ptraining-training>.card {
+      width: 390px;
+      height: 550px;
   }
-
-  .horizontal-dosen > .card-dosen-training > .card > .container-dosen > .title-dosen-training,
-  .horizontal-ptraining > .card-ptraining-training > .card > .container-ptraining > .title-ptraining-training {
-    font-size: 26px;
-    margin-top: 10px;
+  .horizontal-dosen>.card-dosen-training>.card>.container-dosen>.title-dosen-training,
+  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.title-ptraining-training {
+      font-size: 26px;
+      margin-top: 10px;
   }
-
-  .horizontal-ptraining > .card-ptraining-training > .card > .container-ptraining > .description-ptraining {
-    font-size: 15px;
+  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.description-ptraining {
+      font-size: 15px;
   }
-
-  .horizontal-dosen > .card-dosen-training > .card > .container-dosen > .price-training,
-  .horizontal-ptraining > .card-ptraining-training > .card > .container-ptraining > .price-training {
-    font-size: 30px;
+  .horizontal-dosen>.card-dosen-training>.card>.container-dosen>.price-training,
+  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.price-training {
+      font-size: 30px;
   }
-
   .squares-ptraining {
-    margin-left: -500px;
+      margin-left: -500px;
   }
-
   .btn-training {
-    width: 195px;
-    height: 53px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: #f94451;
-    border: 1px solid #f94451;
-    font-weight: 800;
+      width: 195px;
+      height: 53px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      background-color: #f94451;
+      border: 1px solid #f94451;
+      font-weight: 800;
   }
-
   .desktopOnly {
-    display: none !important;
+      display: none !important;
   }
-
   .request {
-    height: 100%;
+      height: 100%;
   }
-
   .btn-ingintahu {
-    width: 274px;
-    height: 63px;
-    font-size: 23px;
-    margin-top: 63px;
-    border-radius: 8px;
+      width: 274px;
+      height: 63px;
+      font-size: 23px;
+      margin-top: 63px;
+      border-radius: 8px;
   }
-
   .mobileIngintahu {
-    padding: 20px 50px 0;
-    width: 480px;
-    height: 718px;
+      padding: 20px 50px 0;
+      width: 480px;
+      height: 718px;
   }
-
   .title-ingintahu {
-    font-size: 34px;
-    color: #133d60;
+      font-size: 34px;
+      color: #133d60;
   }
-
   .subtitle-ingintahu {
-    font-size: 15px;
-    color: #133d60;
-    line-height: 21px;
-    padding: 5px;
-    text-align: center;
+      font-size: 15px;
+      color: #133d60;
+      line-height: 21px;
+      padding: 5px;
+      text-align: center;
   }
-
   .text-ingintahu,
   .text-ingintahu::placeholder {
-    font-size: 17px;
-    margin: 25px 10%;
+      font-size: 17px;
+      margin: 25px 10%;
   }
-
   .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    background-color: white;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background-color: white;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
   }
-
   .overlay-content {
-    position: relative;
-    top: 6%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    left: 10px;
+      position: relative;
+      top: 6%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      left: 10px;
   }
-
   .overlay div {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
   }
-
   .overlay div:hover,
   .overlay div:focus {
-    color: #f1f1f1;
+      color: #f1f1f1;
   }
-
   .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
   }
   .overlay a {
-    font-size: 20px;
+      font-size: 20px;
   }
   .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
   }
   .img-menu-mobile {
-    margin-top: 9px;
-    width: 86px;
-    height: 27px;
-    margin-left: 19px;
+      margin-top: 9px;
+      width: 86px;
+      height: 27px;
+      margin-left: 19px;
   }
-
-  .mb-0 > a {
-    display: block;
-    position: relative;
+  .mb-0>a {
+      display: block;
+      position: relative;
   }
-  .mb-0 > a:after {
-    font-family: "Glyphicons Halflings";
-    content: "\e080";
-    float: right;
-    color: #133d60;
-    font-size: 14px;
-    margin-right: 11px;
-    margin-top: 3px;
+  .mb-0>a:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e080";
+      float: right;
+      color: #133d60;
+      font-size: 14px;
+      margin-right: 11px;
+      margin-top: 3px;
   }
-  .mb-0 > a[aria-expanded="true"]:after {
-    content: "\e114";
+  .mb-0>a[aria-expanded="true"]:after {
+      content: "\e114";
   }
-
-  .mb-1 > a {
-    display: block;
-    position: relative;
+  .mb-1>a {
+      display: block;
+      position: relative;
   }
-  .mb-1 > a:after {
-    font-family: "Glyphicons Halflings";
-    content: "\e080";
-    float: right;
-    color: #fff;
-    font-size: 14px;
-    font-style: normal;
-    margin-right: 142px;
-    margin-top: 9px;
+  .mb-1>a:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e080";
+      float: right;
+      color: #fff;
+      font-size: 14px;
+      font-style: normal;
+      margin-right: 142px;
+      margin-top: 9px;
   }
-  .mb-1 > a[aria-expanded="true"]:after {
-    content: "\e114";
+  .mb-1>a[aria-expanded="true"]:after {
+      content: "\e114";
   }
-
   .footer-title-m {
-    font-size: 28px;
-    font-weight: 700;
-    font-style: italic;
-    text-align: left;
-    color: white;
-    padding-left: 138px;
-    letter-spacing: 1px;
-    font-family: "Barlow", sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      font-style: italic;
+      text-align: left;
+      color: white;
+      padding-left: 138px;
+      letter-spacing: 1px;
+      font-family: "Barlow", sans-serif;
   }
-
   .background-transparent {
-    background-color: transparent;
+      background-color: transparent;
   }
-
   .nav-item .active {
-    font-weight: 700;
+      font-weight: 700;
   }
-
   .img-tabmenu {
-    width: 400px;
-    height: 201px;
+      width: 400px;
+      height: 201px;
   }
-
   .container-review {
-    padding: 0;
-    margin-left: 10px;
+      padding: 0;
+      margin-left: 10px;
   }
-
   .lihat-semua-dosen {
-    transform: rotate(0deg) translateY(110px);
-    padding-right: 0;
-    margin-left: 20px;
+      transform: rotate(0deg) translateY(110px);
+      padding-right: 0;
+      margin-left: 20px;
   }
-
   .lihat-semua-ptraining {
-    transform: rotate(0deg) translateY(130px);
-    margin-left: 35px;
-    margin-bottom: 15px;
+      transform: rotate(0deg) translateY(130px);
+      margin-left: 35px;
+      margin-bottom: 15px;
   }
   .newsLetter {
-    position: relative;
-    text-align: center;
-    color: white;
-    background-image: url(./../assets/image/bg-newslatter.png);
-    height: 199px;
-    width: 480px;
+      position: relative;
+      text-align: center;
+      color: white;
+      background-image: url(/assets/image/bg-newslatter.png);
+      height: 199px;
+      width: 480px;
   }
   .img-logo-w {
-    width: 152px;
-    height: 48px;
+      width: 152px;
+      height: 48px;
   }
   .description-footer {
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    letter-spacing: 1.12px;
-    line-height: 23px;
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      letter-spacing: 1.12px;
+      line-height: 23px;
   }
   .img-socmed-mobile {
-    width: 30px;
-    height: 30px;
-    margin: 0 12px 0 13px;
+      width: 30px;
+      height: 30px;
+      margin: 0 12px 0 13px;
   }
   .media-sosial {
-    font-size: 19px;
-    font-weight: 700;
-    letter-spacing: 1.9px;
-    font-family: "Open Sans", sans-serif;
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: 1.9px;
+      font-family: "Open Sans", sans-serif;
   }
   .lihat-semua {
-    color: #fc0152;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 900;
-    margin: 20px 60px;
-    margin: -50px -15px -24px;
+      color: #fc0152;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 900;
+      margin: 20px 60px;
+      margin: -50px -15px -24px;
   }
   .all-review {
-    margin: 25px 5px 0 0 !important;
+      margin: 25px 5px 0 0 !important;
   }
   .all-univ {
-    margin: 20px -5px -30px !important;
+      margin: 20px -5px -30px !important;
   }
   .text-title-training {
-    font-family: "Barlow", sans-serif;
-    font-weight: 600;
-    line-height: 42px;
-    font-size: 30px;
-    letter-spacing: 1px;
-    margin-left: -25px;
-    margin-top: 110px;
-    margin-bottom: 70px;
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+      line-height: 42px;
+      font-size: 30px;
+      letter-spacing: 1px;
+      margin-top: 110px;
+      margin-bottom: 70px;
   }
   .sub-title {
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
   }
   .title-program-training {
-    font-family: "Barlow", sans-serif;
-    letter-spacing: 1px;
-    font-size: 30px;
-    margin-top: 100px;
-    margin-left: -4px;
-    margin-bottom: 22px;
+      font-family: "Barlow", sans-serif;
+      letter-spacing: 1px;
+      font-size: 30px;
+      margin-top: 100px;
+      margin-left: -4px;
+      margin-bottom: 22px;
   }
   .img-dosen {
-    width: 362px;
-    height: 215px;
+      width: 100%;
+      height: 215px;
   }
   .container-dosen {
-    width: 100%;
-    padding: 7px 35px;
+      width: 100%;
+      padding: 7px 35px;
   }
   .title-dosen-m {
-    font-family: "Barlow", sans-serif;
-    font-size: 30px;
-    letter-spacing: 0.6px;
+      font-family: "Barlow", sans-serif;
+      font-size: 30px;
+      letter-spacing: 0.6px;
   }
   .title-review {
-    font-family: "Barlow", sans-serif;
-    font-size: 23px;
-    color: #fff;
-    font-weight: 900;
-    line-height: 19px;
-    letter-spacing: 1px;
+      font-family: "Barlow", sans-serif;
+      font-size: 23px;
+      color: #fff;
+      font-weight: 900;
+      line-height: 19px;
+      letter-spacing: 1px;
   }
   .position-review {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: #fff;
-    line-height: 19px;
-    letter-spacing: 1px;
-    font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-style: italic;
+      color: #fff;
+      line-height: 19px;
+      letter-spacing: 1px;
+      font-weight: 600;
   }
   .description-review {
-    font-family: "Open Sans", sans-serif;
-    font-size: 11px;
-    font-style: italic;
-    color: #fff;
-    letter-spacing: 1px;
-    line-height: 19px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 11px;
+      font-style: italic;
+      color: #fff;
+      letter-spacing: 1px;
+      line-height: 19px;
   }
   .cerita-mahasiswa {
-    left: 72%;
+      left: 72%;
   }
   .btn-cerita-mahasiswa {
-    color: #fff;
-    font-size: 15px;
-    font-weight: 900;
-    background-color: #f94451;
-    border: 1px solid #f94451;
-    border-radius: 5px;
-    width: 124px;
-    height: 31px;
-    padding: 4px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 900;
+      background-color: #f94451;
+      border: 1px solid #f94451;
+      border-radius: 5px;
+      width: 124px;
+      height: 31px;
+      padding: 4px;
   }
   .btn-ijazah {
-    font-size: 20px;
-    color: #133d60;
-    font-weight: 900;
-    letter-spacing: 1px;
-    font-family: "Barlow", sans-serif;
+      font-size: 20px;
+      color: #133d60;
+      font-weight: 900;
+      letter-spacing: 1px;
+      font-family: "Barlow", sans-serif;
   }
   .title-promo {
-    font-size: 30px;
-    line-height: 40px;
-    font-family: "Barlow", sans-serif;
+      font-size: 30px;
+      line-height: 40px;
+      font-family: "Barlow", sans-serif;
   }
   .btn-request {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 900;
-    background-color: #f94451;
-    border: 1px solid #f94451;
-    border-radius: 5px;
-    width: 98px;
-    height: 26px;
-    padding: 0px;
-    margin-left: 2px;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 900;
+      background-color: #f94451;
+      border: 1px solid #f94451;
+      border-radius: 5px;
+      width: 98px;
+      height: 26px;
+      padding: 0px;
+      margin-left: 2px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .lihat-semua {
-    font-size: 30px;
-    margin: 20px 20px;
+      font-size: 30px;
+      margin: 20px 20px;
   }
-
   .ml-10 {
-    margin-left: 0;
+      margin-left: 0;
   }
-
   .font-heading {
-    font-size: 40px;
-    margin: 25px 0;
+      font-size: 40px;
+      margin: 25px 0;
   }
-
-  .garis-pembatas, .pembatas-mobile {
-    height: 2px;
+  .garis-pembatas,
+  .pembatas-mobile {
+      height: 2px;
   }
-
   .img-logo-header {
-    width: 140px;
-    height: 45px;
+      width: 140px;
+      height: 45px;
   }
   .menu {
-    font-size: 17px;
-    margin-right: 30px;
-    margin-left: 23px;
+      font-size: 17px;
+      margin-right: 30px;
+      margin-left: 23px;
   }
-  .navbar-nav > li {
-    margin-top: -15px;
-    padding: 0;
+  .navbar-nav>li {
+      margin-top: -15px;
+      padding: 0;
   }
-
   .header-top {
-    margin-top: 15px;
-    margin-left: 25px;
+      margin-top: 15px;
+      margin-left: 25px;
   }
-  .header-top > a > .btn-cerita-mahasiswa {
-    margin-left: 35px;
+  .header-top>a>.btn-cerita-mahasiswa {
+      margin-left: 35px;
   }
   .navbar {
-    margin-bottom: -15px;
+      margin-bottom: -15px;
   }
   .input-group .form-control {
-    height: 32px;
-    width: 280px;
+      height: 32px;
+      width: 280px;
   }
-
   .img-slider {
-    height: 550px;
+      height: 550px;
   }
-
   .img-univ {
-    width: 210px;
-    height: 210px;
+      width: 210px;
+      height: 210px;
   }
   .card-univ {
-    margin: 17px;
+      margin: 17px;
   }
   .text-univ {
-    font-size: 25px;
-    width: 210px;
-    margin: 0 17px;
+      font-size: 25px;
+      width: 210px;
+      margin: 0 17px;
   }
   .jurusan {
-    width: 280px;
-    height: 140px;
-    margin: 20px 15px 20px 15px;
+      width: 280px;
+      height: 140px;
+      margin: 20px 15px 20px 15px;
   }
   .text-jurusan,
   .text-training {
-    font-size: 30px;
-    padding: 35px;
+      font-size: 30px;
+      padding: 35px;
   }
-
   .img-banner {
-    height: 250px;
+      height: 250px;
   }
-
   .tampung-tab {
-    margin: 0;
+      margin: 0;
   }
   .img-tabmenu {
-    width: 100%;
-    height: 100%;
-    margin-top: -20px;
+      width: 100%;
+      height: 100%;
+      margin-top: -20px;
   }
   .tab-description {
-    font-size: 25px;
-    margin: 0;
+      font-size: 25px;
+      margin: 0;
   }
   .with-nav-tabs.panel-primary {
-    width: 100%;
+      width: 100%;
   }
-  .with-nav-tabs.panel-primary .nav-tabs > li > a,
-  .with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
-  .with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
-    font-size: 17px;
-    margin: 20px 10px 0px 10px;
-    padding: 10px 40px;
+  .with-nav-tabs.panel-primary .nav-tabs>li>a,
+  .with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+  .with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+      font-size: 17px;
+      margin: 20px 10px 0px 10px;
+      padding: 10px 40px;
   }
   .with-nav-tabs.panel-primary {
-    margin: 25px 0 60px 0;
+      margin: 25px 0 60px 0;
   }
-
   .btn-request {
-    width: 140px;
-    height: 35px;
-    font-size: 15px;
-    border-radius: 4px;
-    margin-left: -35px;
+      width: 140px;
+      height: 35px;
+      font-size: 15px;
+      border-radius: 4px;
+      margin-left: -35px;
   }
   .request {
-    height: 616px;
+      height: 616px;
   }
   .img-request {
-    height: 587px;
-    width: 100%;
+      height: 587px;
+      width: 100%;
   }
-
   .mobileIngintahu {
-    padding: 20px 100px 0;
+      padding: 20px 100px 0;
   }
   .title-ingintahu {
-    font-size: 35px;
+      font-size: 35px;
   }
   .subtitle-ingintahu {
-    font-size: 14px;
-    padding: 0 60px;
+      font-size: 14px;
+      padding: 0 60px;
   }
   .text-ingintahu {
-    font-size: 17px;
-    margin: 20px 10%;
+      font-size: 17px;
+      margin: 20px 10%;
   }
   .btn-ingintahu {
-    font-size: 20px;
-    width: 190px;
-    height: 50px;
-    border-radius: 8px;
+      font-size: 20px;
+      width: 190px;
+      height: 50px;
+      border-radius: 8px;
   }
   input:focus {
-    border-bottom: 2px solid;
+      border-bottom: 2px solid;
   }
-
   .container-review {
-    padding: 0;
+      padding: 0;
   }
   .img-cerita {
-    width: 575px;
-    height: 335px;
-    background-size: 575px 335px !important;
+      width: 575px;
+      height: 335px;
+      background-size: 575px 335px !important;
   }
   .bg-cerita-mahasiswa {
-    width: 575px;
-    height: 335px;
+      width: 575px;
+      height: 335px;
   }
   .cerita-mahasiswa {
-    left: 70%;
+      left: 70%;
   }
   .tampung-review {
-    margin: 3rem 50px 0 57px;
+      margin: 3rem 50px 0 57px;
   }
   .title-review {
-    font-size: 35px;
+      font-size: 35px;
   }
   .position-review {
-    font-size: 22px;
+      font-size: 22px;
   }
   .description-review {
-    font-size: 13px;
+      font-size: 13px;
   }
   .btn-cerita-mahasiswa {
-    font-size: 15px;
-    width: 150px;
-    height: 35px;
+      font-size: 15px;
+      width: 150px;
+      height: 35px;
   }
-
   .desktopDosen {
-    margin: 0 30px !important;
+      margin: 0 30px !important;
   }
   .card,
   .card-ptraining-desk {
-    width: 380px;
-    height: 500px;
+      width: 380px;
+      height: 500px;
   }
   .img-dosen {
-    height: 225px;
-    border-radius: 15px 15px 0px 0px;
+      height: 225px;
+      border-radius: 15px 15px 0px 0px;
   }
   .container-dosen,
   .container-ptraining-desk {
-    padding: 15px 25px;
+      padding: 15px 25px;
   }
   .title-dosen {
-    font-size: 22px;
+      font-size: 22px;
   }
   .title-ptraining-desk {
-    font-size: 22px;
-    line-height: 25px;
+      font-size: 22px;
+      line-height: 25px;
   }
   .position-dosen,
   .position-ptraining-desk {
-    font-size: 12px;
+      font-size: 12px;
   }
   .description-dosen {
-    font-size: 12px;
+      font-size: 12px;
   }
   .description-ptraining-desk {
-    font-size: 12px;
-    margin: 20px 0 15px;
+      font-size: 12px;
+      margin: 20px 0 15px;
   }
   .price-ptraining-desk {
-    font-size: 25px;
+      font-size: 25px;
   }
   .btn-detail {
-    width: 160px;
-    height: 40px;
-    font-size: 20px;
-    left: 27%;
+      width: 160px;
+      height: 40px;
+      font-size: 20px;
+      left: 27%;
   }
   .baca-selengkapnya {
-    font-size: 17px;
-    bottom: 10px;
+      font-size: 17px;
+      bottom: 10px;
   }
-
   .newsLetter {
-    height: 300px;
+      height: 300px;
   }
   .text-newsLetter {
-    top: 28%;
-    width: 75%;
-    font-size: 40px;
+      top: 28%;
+      width: 75%;
+      font-size: 40px;
   }
   form.example input[type="text"] {
-    width: 650px;
-    height: 50px;
+      width: 650px;
+      height: 50px;
   }
   form.example button {
-    width: 150px;
-    font-size: 22px;
-    font-weight: 700;
-    border-radius: 5px;
-    height: 40px;
-    margin-left: -15%;
-    margin-top: 7px;
-    padding: 0;
+      width: 150px;
+      font-size: 22px;
+      font-weight: 700;
+      border-radius: 5px;
+      height: 40px;
+      margin-left: -15%;
+      margin-top: 7px;
+      padding: 0;
   }
   .footer-dekstop {
-    padding: 10px 0px 0px 10px;
-    height: 570px;
+      padding: 10px 0px 0px 10px;
+      height: 570px;
   }
   .footer-desc {
-    font-size: 15px;
-    line-break: 28px;
+      font-size: 15px;
+      line-break: 28px;
   }
   .footer-title {
-    font-size: 30px;
+      font-size: 30px;
   }
   .footer-subtitle {
-    font-size: 18px;
-    margin: 20px 0;
+      font-size: 18px;
+      margin: 20px 0;
   }
   .footer-small {
-    font-size: 17px;
+      font-size: 17px;
   }
   .footer-left {
-    width: 30%;
+      width: 30%;
   }
   .footer-right {
-    margin-left: 60px;
+      margin-left: 60px;
   }
   .media-sosial {
-    margin-top: 35px;
-    font-size: 25px;
+      margin-top: 35px;
+      font-size: 25px;
   }
   .img-logo-w {
-    width: 180px;
-    height: 55px;
+      width: 180px;
+      height: 55px;
   }
   .img-socmed {
-    width: 30px;
-    height: 30px;
-    margin: 0 20px 0 0px;
+      width: 30px;
+      height: 30px;
+      margin: 0 20px 0 0px;
   }
 }
