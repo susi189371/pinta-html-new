@@ -111,7 +111,8 @@
   background-color: #fff;
   border-radius: 5px;
   padding: 0 0 10px 0;
-  -webkit-box-shadow: -1px 0px 13px 2px #ccc;
+  box-shadow: 0 2px 14px 2px rgba(0, 0, 0, 0.08);
+  /* -webkit-box-shadow: -1px 0px 13px 2px #ccc; */
   margin-bottom: 20px;
   /* width: 220px;
   height: 220px; */
@@ -302,7 +303,8 @@
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
+  border-radius: 8px;
   padding: 0;
   width: 555px;
   height: 760px;
@@ -569,7 +571,7 @@ form.example button {
   font-size: 31px;
   font-weight: 700;
   padding: 10px 20px;
-  border-radius: 7px;
+  border-radius: 8px;
   width: 304px;
   height: 80px;
   margin: 30px;
@@ -812,13 +814,13 @@ section.section {
   height: 480px;
   width: 864px;
   background-size: 864px 480px !important;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .bg-cerita-mahasiswa {
   height: 480px;
   width: 864px;
   background: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .btn-cerita-mahasiswa {
   color: #fff;
@@ -958,13 +960,13 @@ section.section {
     height: 244px;
     width: 440px;
     background-size: 440px 244px !important;
-    border-radius: 5px;
+    border-radius: 8px;
   }
   .bg-cerita-mahasiswa {
     height: 244px;
     width: 440px;
     background: rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+    border-radius: 8px;
   }
 
   .text-newsLetter {
@@ -1090,6 +1092,13 @@ section.section {
     font-family: "Open Sans", sans-serif;
   }
 
+  .input-group-addon {
+    color: #fc0152;
+    background-color: #ededed !important;
+    border-color: #ededed;
+    font-weight: 400;
+  }
+
   .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family: "Glyphicons Halflings"; /* essential for enabling glyphicon */
@@ -1138,6 +1147,7 @@ section.section {
     box-shadow: 0 2px 14px 2px rgba(0, 0, 0, 0.08);
     border: none;
     margin: 0 20px;
+    border-radius: 8px;
   }
 
   .card-ijazah > .collapse {
@@ -1149,6 +1159,7 @@ section.section {
     border: none;
     text-align: center;
     height: 75px;
+    border-radius: 8px;
   }
 
   .btn-ijazah {
@@ -1164,6 +1175,17 @@ section.section {
     font-weight: 100;
     margin-top: 0;
     font-family: "Open sans", sans-serif;
+  }
+
+  .input-group .form-control {
+    height: 30px;
+    width: 371px;
+    margin-left: -17px;
+    background-color: #f6f6f6;
+    border: 1px solid #ededed;
+  }
+  input::placeholder {
+    font-style: italic;
   }
 }
 
@@ -1324,28 +1346,23 @@ section.section {
     width: 108px;
     padding: 16px;
   }
+
   .text-univ {
     background-color: transparent;
-    border-radius: 5px;
-    text-align: center;
-    height: 100px;
     padding: 15px 0px;
-    color: #133d60;
     font-size: 13px;
-    font-weight: 700;
     width: 108px;
     margin-left: 190px;
     margin-top: -15px;
   }
+
   .horizontal-scroll-wrapper {
-    /* position:absolute; */
     display: block;
     top: 0;
     left: 0;
     width: 560px;
     height: 450px;
     margin: 0;
-    /* background:#abc; */
     overflow-y: auto;
     overflow-x: hidden;
     transform: rotate(-90deg) translateY(-80px);
@@ -1383,6 +1400,7 @@ section.section {
     width: 190px; */
     height: 79px;
     width: 168px;
+    border-radius: 8px;
   }
   .text-jurusan {
     background-color: transparent;
@@ -1470,7 +1488,7 @@ section.section {
   .horizontal-ptraining > .card-ptraining > .card {
     width: 362px;
     height: 525px;
-    border-radius: 7px;
+    border-radius: 8px;
   }
 
   .horizontal-dosen > .card-dosen > .card > .container-dosen > .title-dosen,
@@ -1548,6 +1566,7 @@ section.section {
     height: 63px;
     font-size: 23px;
     margin-top: 63px;
+    border-radius: 8px;
   }
 
   .mobileIngintahu {
@@ -1629,6 +1648,7 @@ section.section {
     margin-top: 9px;
     width: 86px;
     height: 27px;
+    margin-left: 19px;
   }
 
   .mb-0 > a {
@@ -1747,7 +1767,7 @@ section.section {
     margin: 25px 5px 0 0 !important;
   }
   .all-univ {
-    margin: 0 -5px -50px !important;
+    margin: 20px -5px -30px !important;
   }
   .text-title-training {
     font-family: "Barlow", sans-serif;
@@ -1873,13 +1893,11 @@ section.section {
     margin-right: 30px;
     margin-left: 23px;
   }
-  .navbar-nav>li {
+  .navbar-nav > li {
     margin-top: -15px;
-    padding: 0
+    padding: 0;
   }
-  .input-group .form-control {
-    height: 32px;
-  }
+
   .header-top {
     margin-top: 15px;
     margin-left: 25px;
@@ -1891,6 +1909,7 @@ section.section {
     margin-bottom: -15px;
   }
   .input-group .form-control {
+    height: 32px;
     width: 280px;
   }
 
@@ -1915,7 +1934,8 @@ section.section {
     height: 140px;
     margin: 0 15px 0 15px;
   }
-  .text-jurusan, .text-training {
+  .text-jurusan,
+  .text-training {
     font-size: 30px;
     padding: 35px;
   }
@@ -1945,7 +1965,7 @@ section.section {
     font-size: 17px;
     margin: 20px 10px 0px 10px;
     padding: 10px 40px;
-  }  
+  }
   .with-nav-tabs.panel-primary {
     margin: 0 0 40px 0;
   }
@@ -1964,7 +1984,7 @@ section.section {
     height: 587px;
     width: 100%;
   }
-  
+
   .mobileIngintahu {
     padding: 20px 100px 0;
   }
@@ -1983,6 +2003,7 @@ section.section {
     font-size: 20px;
     width: 190px;
     height: 50px;
+    border-radius: 8px;
   }
   input:focus {
     border-bottom: 2px solid;
@@ -2065,7 +2086,7 @@ section.section {
 
   .newsLetter {
     height: 300px;
-  }  
+  }
   .text-newsLetter {
     top: 28%;
     width: 75%;
