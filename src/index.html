@@ -39,6 +39,31 @@
         function closeNav() {
           document.getElementById("myNav").style.width = "0%";
         }
+
+        function on(){
+          // document.getElementById("data").style.display = "none";
+          // document.getElementsByClassName("textOverImage").style.display ="block";
+          console.log('on')
+          var element = document.getElementById("cerita-mahasiswa");
+          // var element2 = document.getElementById("close-overlay");
+          element.classList.add("dNone");
+          // element2.classList.remove("dNone");
+        }
+
+        function off(){
+          // document.getElementById("data").style.display = "block";
+          // document.getElementsByClassName("textOverImage").style.display ="none";
+          var element = document.getElementById("cerita-mahasiswa");
+          // var element2 = document.getElementById("close-overlay");
+          element.classList.remove("dNone");
+          // element2.classList.remove("add");
+          console.log('off')
+        }
+        
+        </script>
+        <script>
+        // When you click the button it expands
+
         </script>
 </body>
 
