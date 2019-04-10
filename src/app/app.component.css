@@ -124,7 +124,7 @@
 }
 
 .text-univ {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 5px;
   text-align: center;
   height: 100px;
@@ -133,7 +133,7 @@
   font-size: 34px;
   font-weight: 700;
   width: 285px;
-  margin: 0 40px;
+  margin: 0 42px;
 }
 
 .lihat-semua {
@@ -153,18 +153,6 @@
   bottom: 30px;
 }
 
-.lihat-semua-dosen,
-.lihat-semua-ptraining {
-  color: #fc0152;
-  width: 100%;
-  padding-right: 20px;
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  transform-origin: top right;
-  transform: rotate(0deg) translateY(65px);
-}
-
 .jurusan {
   position: relative;
   text-align: center;
@@ -181,6 +169,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 42px;
+  color: white;
 }
 
 .text-training {
@@ -190,6 +179,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 42px;
+  color: white;
 }
 
 .banner {
@@ -401,7 +391,7 @@
 
 .text-newsLetter {
   position: absolute;
-  top: 24%;
+  top: 30%;
   margin: auto;
   width: 59%;
   left: 51%;
@@ -498,13 +488,6 @@ form.example button {
   color: #fff;
 }
 
-.footer-title {
-  font-size: 42px;
-  font-weight: 700;
-  font-style: italic;
-  text-align: left;
-}
-
 .footer-subtitle {
   font-size: 27px;
   text-align: left;
@@ -542,6 +525,10 @@ form.example button {
   width: 780px;
   height: 400px;
   border-radius: 10px;
+}
+
+.tab-tampung {
+    width: 100%;
 }
 
 .tab-description {
@@ -736,7 +723,7 @@ section.section {
 .with-nav-tabs.panel-primary>.panel-heading {
   padding: 10px 15px 0px 15px;
   border-bottom: none;
-  background-color: white;
+  background-color: transparent;
 }
 
 .with-nav-tabs.panel-primary .nav-tabs>li>a.active {
@@ -1025,7 +1012,7 @@ section.section {
   }
   .pembatas-mobile {
       height: 2px;
-      margin: 120px 4% -120px;
+      margin: 25px 4% -120px;
   }
   .menu-close {
       display: none;
@@ -1171,23 +1158,16 @@ section.section {
       font-weight: 400;
   }
   .panel-heading .accordion-toggle:after {
-      /* symbol for "opening" panels */
       font-family: "Glyphicons Halflings";
-      /* essential for enabling glyphicon */
       content: "\e114";
-      /* adjust as needed, taken from bootstrap.css */
       float: right;
-      /* adjust as needed */
       color: white;
-      /* adjust as needed */
       font-size: 15px;
       margin-right: 130px;
       margin-top: 10px;
   }
   .panel-heading .accordion-toggle.collapsed:after {
-      /* symbol for "collapsed" panels */
       content: "\e080";
-      /* adjust as needed, taken from bootstrap.css */
       font-size: 15px;
       margin-right: 130px;
       margin-top: 10px;
@@ -1230,11 +1210,6 @@ section.section {
       text-align: center;
       height: 75px;
       border-radius: 8px;
-  }
-  .btn-ijazah {
-      font-size: 20px;
-      color: #133d60;
-      font-weight: 700;
   }
   .tab-description {
       padding: 0 20px;
@@ -1316,6 +1291,9 @@ section.section {
       margin-bottom: -40px;
   }
   /* styling horizontal jurusan */
+  .title-jurusan {
+      margin-bottom: 60px;
+  }
   .img-jurusan {
       height: 79px;
       width: 168px;
@@ -1396,24 +1374,26 @@ section.section {
   .horizontal-dosen>.card-dosen-training {
       margin: 0px 0 -100px 70px;
   }
-  .horizontal-ptraining>.card-ptraining-training {
-      margin: -25px 25px -150px 32px;
+  .card-ptraining-training {
+      margin: 0 0 0 0;
   }
   .horizontal-dosen>.card-dosen-training>.card,
-  .horizontal-ptraining>.card-ptraining-training>.card {
+  .card-ptraining-training>.card {
       width: 390px;
       height: 550px;
   }
   .horizontal-dosen>.card-dosen-training>.card>.container-dosen>.title-dosen-training,
-  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.title-ptraining-training {
+  .card-ptraining-training>.card>.container-ptraining>.title-ptraining-training {
       font-size: 26px;
       margin-top: 10px;
+      font-weight: 600;
   }
-  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.description-ptraining {
+  .card-ptraining-training>.card>.container-ptraining>.description-ptraining {
       font-size: 15px;
+      margin: 15px 0 10px;
   }
   .horizontal-dosen>.card-dosen-training>.card>.container-dosen>.price-training,
-  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.price-training {
+  .card-ptraining-training>.card>.container-ptraining>.price-training {
       font-size: 30px;
   }
   .squares-ptraining {
@@ -1572,14 +1552,22 @@ section.section {
       margin-left: 10px;
   }
   .lihat-semua-dosen {
-      transform: rotate(0deg) translateY(110px);
       padding-right: 0;
       margin-left: 20px;
+      color: #fc0152;
+      width: 100%;
+      padding-right: 20px;
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
   }
   .lihat-semua-ptraining {
-      transform: rotate(0deg) translateY(130px);
-      margin-left: 35px;
-      margin-bottom: 15px;
+      color: #fc0152;
+      width: 100%;
+      padding-right: 20px;
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
   }
   .newsLetter {
       position: relative;
@@ -1632,7 +1620,6 @@ section.section {
       font-size: 30px;
       letter-spacing: 1px;
       margin-top: 110px;
-      margin-bottom: 70px;
   }
   .sub-title {
       font-size: 16px;
@@ -1644,8 +1631,8 @@ section.section {
       letter-spacing: 1px;
       font-size: 30px;
       margin-top: 100px;
-      margin-left: -4px;
       margin-bottom: 22px;
+      text-align: center;
   }
   .img-dosen {
       width: 100%;
@@ -1710,6 +1697,708 @@ section.section {
       font-size: 30px;
       line-height: 40px;
       font-family: "Barlow", sans-serif;
+  }
+  .btn-request {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 900;
+      background-color: #f94451;
+      border: 1px solid #f94451;
+      border-radius: 5px;
+      width: 98px;
+      height: 26px;
+      padding: 0px;
+      margin-left: 2px;
+  }
+}
+
+@media (min-width: 480.1px) and (max-width: 1199.9px) {
+  .dekstop {
+      display: none;
+  }
+  .mobile {
+      display: block !important;
+  }
+  .garis-pembatas {
+      height: 2px;
+  }
+  .pembatas-mobile {
+      height: 2px;
+      margin: 120px 4% -120px;
+  }
+  .menu-close {
+      display: none;
+  }
+  .header-top {
+      margin-top: 10px;
+      margin-right: 1px;
+  }
+  .img-logo-header {
+      margin-top: 0px;
+      width: 86px;
+      height: 27px;
+      margin-left: 145px;
+      background-color: white;
+  }
+  .mobile-menu {
+      margin-top: -33px;
+      margin-left: 365px;
+  }
+  .search-icon {
+      margin: 4px 10px 3px 24px;
+  }
+  .navbar {
+      margin-bottom: -30px;
+  }
+  .img-slider {
+      height: 480px;
+  }
+  .text-promo {
+      font-size: 45px;
+      padding: 10px;
+      letter-spacing: 0.8px;
+  }
+  .img-banner {
+      height: 160px;
+      width: 100%;
+  }
+  .img-cerita {
+      width: 704px;
+      height: 390px;
+      background-size: 704px 390px !important;
+      border-radius: 8px;
+  }
+  .bg-cerita-mahasiswa {
+      width: 704px;
+      height: 390px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+  }
+  .carousel.pointer-event {
+      margin-bottom: 120px;
+  }
+  .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+  .newsLetter {
+      position: relative;
+      text-align: center;
+      color: white;
+      background-image: url(/assets/image/bg-newslatter.png);
+      height: 318px;
+      width: 100%;
+  }
+  .text-newsLetter {
+      width: 83%;
+      left: 49%;
+      font-size: 32px;
+      letter-spacing: 1px;
+      line-height: 40px;
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+  }
+  form.example input[type="text"] {
+      width: 600px;
+      height: 62px;
+  }
+  form.example button {
+      width: 161px;
+      padding: 6px;
+      font-size: 22px;
+      height: 54px;
+      margin-left: -6%;
+      margin-top: 7px;
+      margin-right: -1px;
+  }
+  .footer-mobile {
+      display: block !important;
+  }
+  .footer-dekstop {
+      display: none;
+  }
+  .footer {
+      height: 80%;
+  }
+  .border-footer-copy {
+      border-bottom: 2px solid grey;
+      width: 95%;
+      margin: auto;
+  }
+  .border-footer-bold {
+      border-bottom: 2px solid;
+      width: 95%;
+      margin: auto;
+  }
+  .footer-small-mobile {
+      font-size: 12px;
+      font-family: "Open Sans", sans-serif;
+      font-style: italic;
+      margin-top: 10px;
+      letter-spacing: 1.14px;
+      line-height: 20px;
+  }
+  .pannel-width {
+      width: 42%;
+  }
+  .panel-default>.panel-heading {
+      background-color: transparent !important;
+  }
+  .panel {
+      background-color: transparent !important;
+      border: 1px solid transparent;
+  }
+  .footer-subtitle {
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+  }
+  .input-group-addon {
+      color: #fc0152;
+      background-color: #ededed !important;
+      border-color: #ededed;
+  }
+  .panel-heading .accordion-toggle:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e114";
+      float: right;
+      color: white;
+      font-size: 15px;
+      margin-right: 130px;
+      margin-top: 10px;
+  }
+  .panel-heading .accordion-toggle.collapsed:after {
+      content: "\e080";
+      font-size: 15px;
+      margin-right: 130px;
+      margin-top: 10px;
+  }
+  a:focus,
+  a:hover {
+      text-decoration: none;
+  }
+  .panel-group .panel-heading+.panel-collapse>.list-group,
+  .panel-group .panel-heading+.panel-collapse>.panel-body {
+      border-top: 1px solid transparent;
+  }
+  .panel-heading button:before {
+      font-family: "Glyphicons Halflings";
+      content: "\e114";
+      float: right;
+      transition: all 0.5s;
+  }
+  .panel-heading.active button:before {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+  }
+  .collapsed>.when-opened,
+   :not(.collapsed)>.when-closed {
+      display: none;
+  }
+  .card-ijazah {
+      box-shadow: 0 2px 14px 2px rgba(0, 0, 0, 0.08);
+      border: none;
+      margin: 0 40px;
+      border-radius: 8px;
+  }
+  .card-ijazah>.collapse {
+      height: 530px;
+  }
+  .card-header {
+      background-color: white;
+      border: none;
+      text-align: center;
+      height: 120px;
+      border-radius: 8px;
+      padding: 25px;
+  }
+  .tab-description {
+      padding: 0 20px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 100;
+      margin-top: 0;
+      font-family: "Open sans", sans-serif;
+  }
+  .baca-selengkapnya {
+      font-size: 16px;
+  }
+  .input-group .form-control {
+      height: 30px;
+      width: 371px;
+      margin-left: -17px;
+      background-color: #f6f6f6;
+      border: 1px solid #ededed;
+  }
+  input::placeholder {
+      font-style: italic;
+  }
+  .mobileUniv,
+  .mobileJurusan,
+  .mobileTraining,
+  .mobileDosen {
+      display: block;
+  }
+  .mobileUniv {
+      margin-bottom: 60px !important;
+      margin-top: -70px !important;
+  }
+  .desktopUniv,
+  .desktopJurusan,
+  .desktopTraining,
+  .desktopDosen {
+      display: none;
+  }
+  .card-univ {
+      margin: 15px;
+  }
+  .img-univ {
+      height: 173px;
+      width: 173px;
+      padding: 16px;
+  }
+  .text-univ {
+      background-color: transparent;
+      padding: 15px 0px;
+      font-size: 21px;
+      width: 175px;
+      margin-left: 160px;
+      margin-top: -15px;
+  }
+  .horizontal-scroll-wrapper {
+      display: block;
+      top: 0;
+      left: 0;
+      width: 560px;
+      max-height: 700px;
+      margin: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transform: rotate(-90deg) translateY(-80px);
+      transform-origin: right top;
+  }
+  .horizontal-scroll-wrapper>.card-text {
+      display: block;
+      width: 120px;
+      transform: rotate(90deg);
+  }
+  .squares {
+      margin-left: -470px;
+  }
+  .squares>.card-image {
+      margin: -190px 30px -345px;
+  }
+  .squares>.card-image>.card-text {
+      margin-bottom: -10px;
+  }
+  /* styling horizontal jurusan */
+  .title-jurusan {
+      margin-bottom: 110px;
+  }
+  .img-jurusan {
+      height: 139px;
+      width: 283px;
+      border-radius: 8px;
+  }
+  .text-jurusan {
+      background-color: transparent;
+      border-radius: 5px;
+      text-align: center;
+      height: 60px;
+      padding: 10px;
+      color: white;
+      font-size: 29px;
+      font-weight: 700;
+      width: 260px;
+      margin-left: 31%;
+      font-family: "Barlow", sans-serif;
+  }
+  .horizontal-jurusan {
+      display: block;
+      top: 0;
+      left: 0;
+      width: 560px;
+      height: 720px;
+      margin: 0;
+      margin-top: -220px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transform: rotate(-90deg) translateY(-80px);
+      transform-origin: right top;
+  }
+  .horizontal-jurusan>.card-image-jurusan {
+      display: block;
+      transform: rotate(90deg);
+  }
+  .horizontal-jurusan>.card-text-jurusan {
+      display: block;
+      width: 120px;
+      transform: rotate(90deg);
+  }
+  .squares-jurusan {
+      margin-left: -500px;
+      margin-top: -320px;
+  }
+  .squares-jurusan>.card-image-jurusan {
+      margin: 35px 0 240px 145px;
+      width: 175px;
+  }
+  .squares-jurusan>.card-image-jurusan>.card-text-jurusan {
+      margin-bottom: -60px;
+  }
+  .squares-dosen,
+  .squares-ptraining {
+      margin-left: -500px;
+  }
+  .horizontal-dosen>.card-dosen,
+  .horizontal-ptraining>.card-ptraining {
+      margin: 3px 0px -145px 33px;
+  }
+  .horizontal-dosen>.card-dosen>.card,
+  .horizontal-ptraining>.card-ptraining>.card {
+      width: 362px;
+      height: 525px;
+      border-radius: 8px;
+  }
+  .horizontal-dosen>.card-dosen>.card>.container-dosen>.title-dosen,
+  .horizontal-ptraining>.card-ptraining>.card>.container-ptraining>.title-ptraining {
+      font-size: 20px;
+      margin-top: 10px;
+  }
+  .horizontal-dosen>.card-dosen>.card>.container-dosen>.position-dosen,
+  .horizontal-ptraining>.card-ptraining>.card>.container-ptraining>.position-ptraining {
+      font-size: 12px;
+  }
+  .horizontal-dosen>.card-dosen>.card>.container-dosen>.description-dosen,
+  .horizontal-ptraining>.card-ptraining>.card>.container-ptraining>.description-ptraining {
+      font-size: 14px;
+  }
+  .horizontal-dosen>.card-dosen-training {
+      margin: 0px 0 -100px 70px;
+  }
+  .horizontal-ptraining>.card-ptraining-training {
+      margin: -25px 25px -150px 32px;
+  }
+  .horizontal-dosen>.card-dosen-training>.card,
+  .horizontal-ptraining>.card-ptraining-training>.card {
+      width: 390px;
+      height: 550px;
+  }
+  .horizontal-dosen>.card-dosen-training>.card>.container-dosen>.title-dosen-training,
+  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.title-ptraining-training {
+      font-size: 26px;
+      margin-top: 10px;
+  }
+  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.description-ptraining {
+      font-size: 15px;
+  }
+  .horizontal-dosen>.card-dosen-training>.card>.container-dosen>.price-training,
+  .horizontal-ptraining>.card-ptraining-training>.card>.container-ptraining>.price-training {
+      font-size: 30px;
+  }
+  .squares-ptraining {
+      margin-left: -500px;
+  }
+  .btn-training {
+      width: 195px;
+      height: 53px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      background-color: #f94451;
+      border: 1px solid #f94451;
+      font-weight: 800;
+  }
+  .desktopOnly {
+      display: none !important;
+  }
+  .request {
+      height: 1150px;
+  }
+  .btn-ingintahu {
+      width: 437px;
+      height: 100px;
+      font-size: 34px;
+      margin-top: 95px;
+      border-radius: 8px;
+  }
+  .mobileIngintahu {
+      padding: 20px 50px 0;
+      max-width: 768px;
+      height: 718px;
+  }
+  .title-ingintahu {
+      font-size: 54px;
+      color: #133d60;
+      width: 668px;
+  }
+  .subtitle-ingintahu {
+      font-size: 25px;
+      color: #133d60;
+      line-height: 34px;
+      padding: 5px;
+  }
+  .text-ingintahu,
+  .text-ingintahu::placeholder {
+      font-size: 28px;
+      margin: 50px 8%;
+  }
+  .text-ingintahu > option {
+      font-size: 15px;
+  }
+  .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background-color: white;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+  }
+  .overlay-content {
+      position: relative;
+      top: 6%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      left: 10px;
+  }
+  .overlay div {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  .overlay div:hover,
+  .overlay div:focus {
+      color: #f1f1f1;
+  }
+  .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+  }
+  .overlay a {
+      font-size: 20px;
+  }
+  .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+  }
+  .img-menu-mobile {
+      margin-top: 9px;
+      width: 86px;
+      height: 27px;
+      margin-left: 19px;
+  }
+  .mb-0>a {
+      display: block;
+      position: relative;
+  }
+  .mb-0>a:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e080";
+      float: right;
+      color: #133d60;
+      font-size: 22px;
+      margin-right: 11px;
+      margin-top: 6px;
+  }
+  .mb-0>a[aria-expanded="true"]:after {
+      content: "\e114";
+  }
+  .mb-1>a {
+      display: block;
+      position: relative;
+  }
+  .mb-1>a:after {
+      font-family: "Glyphicons Halflings";
+      content: "\e080";
+      float: right;
+      color: #fff;
+      font-size: 14px;
+      font-style: normal;
+      margin-right: 142px;
+      margin-top: 9px;
+  }
+  .mb-1>a[aria-expanded="true"]:after {
+      content: "\e114";
+  }
+  .footer-title-m {
+      font-size: 28px;
+      font-weight: 700;
+      font-style: italic;
+      text-align: left;
+      color: white;
+      padding-left: 138px;
+      letter-spacing: 1px;
+      font-family: "Barlow", sans-serif;
+  }
+  .background-transparent {
+      background-color: transparent;
+  }
+  .nav-item .active {
+      font-weight: 700;
+  }
+  .img-tabmenu {
+      width: 622px;
+      height: 320px;
+      margin-left: 35px;
+  }
+  .container-review {
+      padding: 0;
+      margin-left: 20px;
+  }
+  .lihat-semua-dosen {
+      transform: rotate(0deg) translateY(110px);
+      padding-right: 0;
+      margin-left: 20px;
+      font-size: 25px;
+  }
+  .lihat-semua-ptraining {
+      transform: rotate(0deg) translateY(130px);
+      margin-left: 35px;
+      margin-bottom: 15px;
+      font-size: 25px;
+  }
+  .img-logo-w {
+      width: 152px;
+      height: 48px;
+  }
+  .description-footer {
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      letter-spacing: 1.12px;
+      line-height: 23px;
+  }
+  .img-socmed-mobile {
+      width: 30px;
+      height: 30px;
+      margin: 0 12px 0 13px;
+  }
+  .media-sosial {
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: 1.9px;
+      font-family: "Open Sans", sans-serif;
+  }
+  .lihat-semua {
+      color: #fc0152;
+      font-size: 25px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 900;
+      margin: 20px 60px;
+      margin: -280px -15px -24px;
+  }
+  .all-review {
+      margin: 25px 15px 0 0 !important;
+  }
+  .all-univ {
+      margin: -140px -5px -30px !important;
+  }
+  .text-title-training {
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+      line-height: 64px;
+      font-size: 45px;
+      letter-spacing: 1px;
+      margin-top: 110px;
+      margin-bottom: 100px;
+  }
+  .sub-title {
+      font-size: 25px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      width: 90%;
+      left: 5%;
+  }
+  .title-program-training {
+      font-family: "Barlow", sans-serif;
+      letter-spacing: 1px;
+      font-size: 45px;
+      text-align: center;
+      margin-top: 100px;
+      margin-left: -4px;
+      margin-bottom: 22px;
+  }
+  .img-dosen {
+      width: 100%;
+      height: 215px;
+  }
+  .container-dosen {
+      width: 100%;
+      padding: 7px 35px;
+  }
+  .title-dosen-m {
+      font-family: "Barlow", sans-serif;
+      font-size: 45px;
+      letter-spacing: 0.6px;
+  }
+  .title-review {
+      font-family: "Barlow", sans-serif;
+      font-size: 37px;
+      color: #fff;
+      font-weight: 900;
+      line-height: 45px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+  }
+  .position-review {
+      font-family: "Open Sans", sans-serif;
+      font-size: 26px;
+      font-style: italic;
+      color: #fff;
+      line-height: 19px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-bottom: 20px !important;
+  }
+  .description-review {
+      font-family: "Open Sans", sans-serif;
+      font-size: 19px;
+      font-style: italic;
+      color: #fff;
+      letter-spacing: 1px;
+      line-height: 19px;
+      margin-bottom: 40px;
+  }
+  .cerita-mahasiswa {
+      left: 140%;
+      width: 100%;
+  }
+  .btn-cerita-mahasiswa {
+      color: #fff;
+      font-size: 19px;
+      font-weight: 900;
+      background-color: #f94451;
+      border: 1px solid #f94451;
+      border-radius: 5px;
+      width: 198px;
+      height: 49px;
+      padding: 4px;
+  }
+  .btn-ijazah {
+      font-size: 32px;
+      color: #133d60;
+      font-weight: 900;
+      letter-spacing: 1px;
+      font-family: "Barlow", sans-serif;
+  }
+  .title-promo {
+      font-size: 45px;
+      line-height: 64px;
+      padding: 0 20px;
+      font-family: "Barlow", sans-serif;
+      margin: -90px 0 90px;
   }
   .btn-request {
       color: #fff;
@@ -1996,4 +2685,83 @@ section.section {
       height: 30px;
       margin: 0 20px 0 0px;
   }
+}
+
+.tampung1-univ {
+	width: 100%;
+	overflow: hidden;
+	margin: 80px auto 0;
+}
+.tampung2-univ {
+	width: 2500px;
+	display: flex;
+	flex-direction: row;
+}
+.tampung3-univ {
+	width: 145px;
+    height: auto;
+    margin: 0 -5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.new-text-univ {
+    font-size: 13px;
+    font-weight: 700;
+    color: #133d60;
+    text-align: center;
+    width: 108px;
+    height: 80px;
+    margin: -15px 0 -15px 14px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.tampung1-jurusan {
+	width: 100%;
+	overflow: hidden;
+	margin: 35px auto 35px;
+}
+.tampung2-jurusan {
+	width: 2500px;
+	display: flex;
+	flex-direction: row;
+}
+.tampung3-jurusan {
+    font-family: "Barlow", sans-serif;
+	width: 168px;
+    height: 79px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 5px 0 15px;
+}
+.new-text-jurusan {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    margin: -50px 10px 10px 13px;
+    width: 100%;
+    text-align: center;
+}
+.all-jurusan {
+    margin: 0 auto 20px;
+}
+
+.tampung1-ptraining {
+	width: 100%;
+	overflow: hidden;
+	margin: 35px auto 35px;
+}
+.tampung2-ptraining {
+	width: 2500px;
+	display: flex;
+	flex-direction: row;
+}
+.tampung3-ptraining {
+    font-family: "Barlow", sans-serif;
+	width: 390px;
+    height: 555px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 -15px 0 30px;
 }
